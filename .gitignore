@@ -1,0 +1,22 @@
+# Personal data never goes in the repo
+private/
+# data/ holds postings, scores and briefs written about the candidate; only the board list is shared
+data/*
+!data/companies.json
+postings*.json
+out/
+*.docx
+*.pdf
+*.png
+*.tmp
+*.log
+*.local.json
+__pycache__/
+*.pyc
+.env
+.venv/
+# Claude Code: only the workflow scripts are shared (settings, worktrees and memory stay local)
+.claude/*
+!.claude/workflows/
+# operating notes about the candidate (status, immigration details, open decisions)
+HANDOFF.md

@@ -1,0 +1,2756 @@
+[
+ {
+  "name": "Rad AI",
+  "ats": "ashby",
+  "slug": "radai",
+  "careers_url": "https://jobs.ashbyhq.com/radai",
+  "category": "healthtech_imaging",
+  "why": "SF radiology AI company that uses LLMs to generate radiology reports; ML research scientist roles onsite in SF (mostly senior/staff)",
+  "verified": true
+ },
+ {
+  "name": "PathAI",
+  "ats": "greenhouse",
+  "slug": "pathai",
+  "careers_url": "https://job-boards.greenhouse.io/pathai",
+  "category": "healthtech_imaging",
+  "why": "Digital pathology AI; open ML Engineer II/III roles (applied research and model development) that allow remote work, plus MLOps",
+  "verified": true
+ },
+ {
+  "name": "Neuralink",
+  "ats": "greenhouse",
+  "slug": "neuralink",
+  "careers_url": "https://job-boards.greenhouse.io/neuralink",
+  "category": "healthtech_imaging",
+  "why": "Brain-computer interface medical device; Machine Learning Engineer role (not senior) in South San Francisco, plus a pathology/digital imaging software role",
+  "verified": true
+ },
+ {
+  "name": "HeartFlow",
+  "ats": "greenhouse",
+  "slug": "heartflowinc",
+  "careers_url": "https://job-boards.greenhouse.io/heartflowinc",
+  "category": "healthtech_imaging",
+  "why": "AI analysis of coronary CT scans; open Senior Data Scientist, Medical Imaging and a CT imaging systems role in SF",
+  "verified": true
+ },
+ {
+  "name": "Hyperfine",
+  "ats": "greenhouse",
+  "slug": "hyperfine53",
+  "careers_url": "https://job-boards.greenhouse.io/hyperfine53",
+  "category": "healthtech_imaging",
+  "why": "Portable low-field MRI device with deep learning image reconstruction; Senior AI Scientist, hybrid in Palo Alto",
+  "verified": true
+ },
+ {
+  "name": "insitro",
+  "ats": "ashby",
+  "slug": "insitro",
+  "careers_url": "https://jobs.ashbyhq.com/insitro",
+  "category": "healthtech_imaging",
+  "why": "South SF drug discovery company that uses ML on cell imaging;",
+  "verified": true
+ },
+ {
+  "name": "Hike Medical",
+  "ats": "ashby",
+  "slug": "hike-medical",
+  "careers_url": "https://jobs.ashbyhq.com/hike-medical",
+  "category": "healthtech_imaging",
+  "why": "SF medical AI startup hiring a Senior ML Engineer, Multimodal AI in SF",
+  "verified": true
+ },
+ {
+  "name": "Xaira Therapeutics",
+  "ats": "greenhouse",
+  "slug": "xairatherapeutics",
+  "careers_url": "https://job-boards.greenhouse.io/xairatherapeutics",
+  "category": "healthtech_imaging",
+  "why": "South SF AI drug discovery company; BioMedical AI Research Engineer, AI Scientist (multimodal and protein design) and AI-in-Residence roles",
+  "verified": true
+ },
+ {
+  "name": "Lila Sciences",
+  "ats": "greenhouse",
+  "slug": "lilasciences",
+  "careers_url": "https://job-boards.greenhouse.io/lilasciences",
+  "category": "healthtech_imaging",
+  "why": "AI-for-science company with an SF office; many ML Engineer (Applied AI, LS AI) and ML Scientist I/II roles in protein, nucleic-acid and biology foundation models",
+  "verified": true
+ },
+ {
+  "name": "Profluent",
+  "ats": "greenhouse",
+  "slug": "profluent",
+  "careers_url": "https://job-boards.greenhouse.io/profluent",
+  "category": "healthtech_imaging",
+  "why": "Protein language models, Emeryville hybrid; ML Scientist (BioML, pretraining, RL) and Software Engineer, ML Platform",
+  "verified": true
+ },
+ {
+  "name": "Chai Discovery",
+  "ats": "ashby",
+  "slug": "chaidiscovery",
+  "careers_url": "https://jobs.ashbyhq.com/chaidiscovery",
+  "category": "healthtech_imaging",
+  "why": "SF company building molecular structure foundation models for drug discovery; Research Engineer role (no seniority in title) in SF",
+  "verified": true
+ },
+ {
+  "name": "Achira",
+  "ats": "ashby",
+  "slug": "achira",
+  "careers_url": "https://jobs.ashbyhq.com/achira",
+  "category": "healthtech_imaging",
+  "why": "SF molecular AI startup; several ML Research Engineer roles (GPUs, workflows/systems, research) and ML Research Scientist roles",
+  "verified": true
+ },
+ {
+  "name": "Calico Life Sciences",
+  "ats": "greenhouse",
+  "slug": "calicolabs",
+  "careers_url": "https://job-boards.greenhouse.io/calicolabs",
+  "category": "healthtech_imaging",
+  "why": "Alphabet's aging-biology company in South SF; ML Scientist, ML Research Engineer and ML cloud platform roles",
+  "verified": true
+ },
+ {
+  "name": "Biohub (Chan Zuckerberg Biohub, incl. EvolutionaryScale team)",
+  "ats": "greenhouse",
+  "slug": "biohub",
+  "careers_url": "https://job-boards.greenhouse.io/biohub",
+  "category": "healthtech_imaging",
+  "why": "Nonprofit AI-for-biology lab; Research Engineer, AI and Research Scientist, AI roles in Redwood City (hybrid), plus imaging data science",
+  "verified": true
+ },
+ {
+  "name": "Genesis Molecular AI (formerly Genesis Therapeutics)",
+  "ats": "ashby",
+  "slug": "genesis-molecular-ai",
+  "careers_url": "https://jobs.ashbyhq.com/genesis-molecular-ai",
+  "category": "healthtech_imaging",
+  "why": "San Mateo company building foundation models for drug discovery; ML Infrastructure Engineer (no seniority in title), plus senior research roles",
+  "verified": true
+ },
+ {
+  "name": "Inceptive",
+  "ats": "greenhouse",
+  "slug": "inceptive",
+  "careers_url": "https://job-boards.greenhouse.io/inceptive",
+  "category": "healthtech_imaging",
+  "why": "Palo Alto company designing mRNA and other biomolecules with generative models; ML and data roles, mostly in Palo Alto",
+  "verified": true
+ },
+ {
+  "name": "Noetik",
+  "ats": "greenhouse",
+  "slug": "noetik",
+  "careers_url": "https://job-boards.greenhouse.io/noetik",
+  "category": "healthtech_imaging",
+  "why": "SF cancer-biology AI company that trains models on spatial and imaging tumor data; AI Scientist (hybrid)",
+  "verified": true
+ },
+ {
+  "name": "Eikon Therapeutics",
+  "ats": "greenhouse",
+  "slug": "eikontherapeutics",
+  "careers_url": "https://job-boards.greenhouse.io/eikontherapeutics",
+  "category": "healthtech_imaging",
+  "why": "Drug discovery using super-resolution microscopy and cell imaging; Staff Software Engineer, ML and Computational Chemistry in Millbrae",
+  "verified": true
+ },
+ {
+  "name": "Tahoe Therapeutics",
+  "ats": "lever",
+  "slug": "tahoebio-ai",
+  "careers_url": "https://jobs.lever.co/tahoebio-ai",
+  "category": "healthtech_imaging",
+  "why": "South SF single-cell perturbation data plus ML for drug discovery; Senior ML Engineer and Senior ML Scientist",
+  "verified": true
+ },
+ {
+  "name": "Latent Labs",
+  "ats": "ashby",
+  "slug": "latentlabs",
+  "careers_url": "https://jobs.ashbyhq.com/latentlabs",
+  "category": "healthtech_imaging",
+  "why": "Generative protein design; Member of Technical Staff, Applied AI and Forward Deployed AI Engineer roles in SF (plus London)",
+  "verified": true
+ },
+ {
+  "name": "Axiom Bio",
+  "ats": "ashby",
+  "slug": "axiombio",
+  "careers_url": "https://jobs.ashbyhq.com/axiombio",
+  "category": "healthtech_imaging",
+  "why": "SF AI company predicting drug toxicity; ML Researcher at SF HQ",
+  "verified": true
+ },
+ {
+  "name": "Capable Labs",
+  "ats": "ashby",
+  "slug": "capable",
+  "careers_url": "https://jobs.ashbyhq.com/capable",
+  "category": "healthtech_imaging",
+  "why": "SF therapeutics and bio startup; Machine Learning Engineer role (not senior) in SF",
+  "verified": true
+ },
+ {
+  "name": "Manifold Bio",
+  "ats": "greenhouse",
+  "slug": "manifoldbio",
+  "careers_url": "https://job-boards.greenhouse.io/manifoldbio",
+  "category": "healthtech_imaging",
+  "why": "ML-driven de novo antibody and protein discovery; AI/ML Research Engineer based in Boston or SF",
+  "verified": true
+ },
+ {
+  "name": "Recursion",
+  "ats": "greenhouse",
+  "slug": "recursionpharmaceuticals",
+  "careers_url": "https://job-boards.greenhouse.io/recursionpharmaceuticals",
+  "category": "healthtech_imaging",
+  "why": "AI drug discovery built on large-scale cell imaging; Senior AI Researcher, remote in the US",
+  "verified": true
+ },
+ {
+  "name": "Freenome",
+  "ats": "greenhouse",
+  "slug": "freenome",
+  "careers_url": "https://job-boards.greenhouse.io/freenome",
+  "category": "healthtech_imaging",
+  "why": "Brisbane CA (Bay Area) company using ML and genomics for early cancer detection; ML scientist (remote) and bioinformatics research engineer roles",
+  "verified": true
+ },
+ {
+  "name": "Natera",
+  "ats": "greenhouse",
+  "slug": "natera",
+  "careers_url": "https://job-boards.greenhouse.io/natera",
+  "category": "healthtech_imaging",
+  "why": "San Carlos cfDNA genomics company; US-remote roles: ML Scientist, Multimodal AI, AI Engineer on real-world data, and forward-deployed AI engineers",
+  "verified": true
+ },
+ {
+  "name": "Benchling",
+  "ats": "ashby",
+  "slug": "benchling",
+  "careers_url": "https://jobs.ashbyhq.com/benchling",
+  "category": "healthtech_imaging",
+  "why": "SF R&D cloud platform for biotech; Research Engineer, Model Evaluation and Improvement (LLM evals for biology)",
+  "verified": true
+ },
+ {
+  "name": "Valo Health",
+  "ats": "greenhouse",
+  "slug": "valohealth",
+  "careers_url": "https://job-boards.greenhouse.io/valohealth",
+  "category": "healthtech_imaging",
+  "why": "AI drug development using patient data; Staff Data Scientist, ML in epidemiology (SF, remote or Lexington)",
+  "verified": true
+ },
+ {
+  "name": "Unlearn",
+  "ats": "ashby",
+  "slug": "unlearn",
+  "careers_url": "https://jobs.ashbyhq.com/unlearn",
+  "category": "healthtech_imaging",
+  "why": "SF company building AI digital twins of patients for clinical trials; AI Engineer and Applied ML Scientist roles (no seniority in title) in SF",
+  "verified": true
+ },
+ {
+  "name": "Absci",
+  "ats": "ashby",
+  "slug": "absci",
+  "careers_url": "https://jobs.ashbyhq.com/absci",
+  "category": "healthtech_imaging",
+  "why": "Generative AI antibody design; US-remote AI Scientist roles (antibody design, target discovery; senior/staff)",
+  "verified": true
+ },
+ {
+  "name": "Abridge",
+  "ats": "ashby",
+  "slug": "abridge",
+  "careers_url": "https://jobs.ashbyhq.com/abridge",
+  "category": "healthtech_imaging",
+  "why": "Leading ambient clinical documentation LLM company; Machine Learning Scientist (All Levels) and ML Infrastructure Engineer in SF",
+  "verified": true
+ },
+ {
+  "name": "Ambience Healthcare",
+  "ats": "ashby",
+  "slug": "ambiencehealthcare",
+  "careers_url": "https://jobs.ashbyhq.com/ambiencehealthcare",
+  "category": "healthtech_imaging",
+  "why": "SF ambient AI scribe with medical coding; Senior ML Engineer, Staff ML Engineer and Clinical AI Researcher",
+  "verified": true
+ },
+ {
+  "name": "Suki",
+  "ats": "greenhouse",
+  "slug": "suki",
+  "careers_url": "https://job-boards.greenhouse.io/suki",
+  "category": "healthtech_imaging",
+  "why": "Voice AI documentation assistant for clinicians; Senior AI Engineer in Redwood City",
+  "verified": true
+ },
+ {
+  "name": "Commure (incl. Athelas/Augmedix)",
+  "ats": "ashby",
+  "slug": "commure",
+  "careers_url": "https://jobs.ashbyhq.com/commure",
+  "category": "healthtech_imaging",
+  "why": "Mountain View company doing ambient AI and revenue-cycle automation; many AI engineering roles, including non-senior Software Engineer, Applied AI and AI Billing",
+  "verified": true
+ },
+ {
+  "name": "OpenEvidence",
+  "ats": "ashby",
+  "slug": "openevidence",
+  "careers_url": "https://jobs.ashbyhq.com/openevidence",
+  "category": "healthtech_imaging",
+  "why": "Medical LLM search and RAG product for clinicians; Software Engineer, Applied AI (no seniority in title) in SF, a direct match for the RAG project",
+  "verified": true
+ },
+ {
+  "name": "Hippocratic AI",
+  "ats": "ashby",
+  "slug": "Hippocratic%20AI",
+  "careers_url": "https://jobs.ashbyhq.com/Hippocratic%20AI",
+  "category": "healthtech_imaging",
+  "why": "Safety-focused healthcare LLM agents (Menlo Park/Palo Alto); AI Engineer, LLM Inference Engineer, and Applied Scientist, RL (mid-level and up). The slug contains a space, sent URL-encoded",
+  "verified": true
+ },
+ {
+  "name": "Infinitus Systems",
+  "ats": "ashby",
+  "slug": "infinitus",
+  "careers_url": "https://jobs.ashbyhq.com/infinitus",
+  "category": "healthtech_imaging",
+  "why": "SF voice AI agents that automate payer calls and benefits checks; AI Full Stack Engineer in SF",
+  "verified": true
+ },
+ {
+  "name": "Notable",
+  "ats": "ashby",
+  "slug": "notable",
+  "careers_url": "https://jobs.ashbyhq.com/notable",
+  "category": "healthtech_imaging",
+  "why": "San Mateo AI agents for health-system intake, prior auth and documentation workflows; AI Platform Engineer",
+  "verified": true
+ },
+ {
+  "name": "Latent Health",
+  "ats": "ashby",
+  "slug": "latent",
+  "careers_url": "https://jobs.ashbyhq.com/latent",
+  "category": "healthtech_imaging",
+  "why": "SF clinical LLM reasoning over patient records (prior authorization and clinical review); Machine Learning Engineer (not senior) in SF",
+  "verified": true
+ },
+ {
+  "name": "Glass Health",
+  "ats": "lever",
+  "slug": "glass-health-inc",
+  "careers_url": "https://jobs.lever.co/glass-health-inc",
+  "category": "healthtech_imaging",
+  "why": "LLM clinical decision support and diagnosis assistant; Founding AI/Data Engineer (remote)",
+  "verified": true
+ },
+ {
+  "name": "Canvas Medical",
+  "ats": "lever",
+  "slug": "canvasmedical",
+  "careers_url": "https://jobs.lever.co/canvasmedical",
+  "category": "healthtech_imaging",
+  "why": "SF EMR platform; Applied AI Software Engineer who builds evals for LLM agents doing clinical documentation (SF or remote)",
+  "verified": true
+ },
+ {
+  "name": "Doximity",
+  "ats": "greenhouse",
+  "slug": "doximity",
+  "careers_url": "https://job-boards.greenhouse.io/doximity",
+  "category": "healthtech_imaging",
+  "why": "SF physician network with LLM clinical tools; Staff Applied AI Engineer (SF or US remote)",
+  "verified": true
+ },
+ {
+  "name": "Nuna",
+  "ats": "ashby",
+  "slug": "nuna",
+  "careers_url": "https://jobs.ashbyhq.com/nuna",
+  "category": "healthtech_imaging",
+  "why": "SF value-based care data platform; Software Engineer, AI Evaluation (no seniority in title), a fit for the LLM eval-harness experience",
+  "verified": true
+ },
+ {
+  "name": "Citizen Health",
+  "ats": "ashby",
+  "slug": "citizen%20health",
+  "careers_url": "https://jobs.ashbyhq.com/citizen%20health",
+  "category": "healthtech_imaging",
+  "why": "SF AI patient-advocacy platform for rare disease that works on medical records; Senior AI Engineer in SF. The slug contains a space, sent URL-encoded",
+  "verified": true
+ },
+ {
+  "name": "Ellipsis Health",
+  "ats": "ashby",
+  "slug": "ellipsis-health",
+  "careers_url": "https://jobs.ashbyhq.com/ellipsis-health",
+  "category": "healthtech_imaging",
+  "why": "SF voice AI agents for care management; Senior ML Engineer, Agentic AI and a Senior Backend Engineer, AI Evaluations (SF hybrid)",
+  "verified": true
+ },
+ {
+  "name": "Bayesian Health",
+  "ats": "ashby",
+  "slug": "bayesianhealth",
+  "careers_url": "https://jobs.ashbyhq.com/bayesianhealth",
+  "category": "healthtech_imaging",
+  "why": "Clinical AI early-warning models on EHR data (e.g., sepsis); remote US ML Engineer and ML Data Scientist roles (senior/staff)",
+  "verified": true
+ },
+ {
+  "name": "AKASA",
+  "ats": "ashby",
+  "slug": "akasa",
+  "careers_url": "https://jobs.ashbyhq.com/akasa",
+  "category": "healthtech_imaging",
+  "why": "South SF company applying generative AI to clinical documentation for the revenue cycle; Sr. Machine Learning Engineer, remote in the US",
+  "verified": true
+ },
+ {
+  "name": "SmarterDx",
+  "ats": "greenhouse",
+  "slug": "smarterdx",
+  "careers_url": "https://job-boards.greenhouse.io/smarterdx",
+  "category": "healthtech_imaging",
+  "why": "Clinical AI that reads charts for hospital coding and documentation integrity; remote US Staff SWE, ML and Applied AI backend roles",
+  "verified": true
+ },
+ {
+  "name": "Qventus",
+  "ats": "greenhouse",
+  "slug": "qventus",
+  "careers_url": "https://job-boards.greenhouse.io/qventus",
+  "category": "healthtech_imaging",
+  "why": "Mountain View AI and ML for hospital operations and surgical scheduling; AI Tooling Engineer (remote US)",
+  "verified": true
+ },
+ {
+  "name": "Cohere Health",
+  "ats": "greenhouse",
+  "slug": "coherehealth",
+  "careers_url": "https://job-boards.greenhouse.io/coherehealth",
+  "category": "healthtech_imaging",
+  "why": "Prior-authorization AI that extracts clinical findings from records; Staff ML Engineer (US) now open. The board has posted MLE I/II roles before",
+  "verified": true
+ },
+ {
+  "name": "Luminai",
+  "ats": "ashby",
+  "slug": "luminai",
+  "careers_url": "https://jobs.ashbyhq.com/luminai",
+  "category": "healthtech_imaging",
+  "why": "AI automation for health-system operations; Applied AI Engineer (not senior) in the SF Bay Area",
+  "verified": true
+ },
+ {
+  "name": "Curai Health",
+  "ats": "lever",
+  "slug": "curai",
+  "careers_url": "https://jobs.lever.co/curai",
+  "category": "healthtech_imaging",
+  "why": "AI-assisted virtual primary care built on clinical LLMs; Senior Applied AI Engineer (remote)",
+  "verified": true
+ },
+ {
+  "name": "Midi Health",
+  "ats": "greenhouse",
+  "slug": "midihealth",
+  "careers_url": "https://job-boards.greenhouse.io/midihealth",
+  "category": "healthtech_imaging",
+  "why": "Virtual care for women's midlife health; Senior and Staff AI Engineer roles (SF Bay Area hybrid)",
+  "verified": true
+ },
+ {
+  "name": "Omada Health",
+  "ats": "greenhouse",
+  "slug": "omadahealth",
+  "careers_url": "https://job-boards.greenhouse.io/omadahealth",
+  "category": "healthtech_imaging",
+  "why": "SF virtual chronic-care company; Senior SWE, AI Transformation and Data & AI Platform roles (remote US)",
+  "verified": true
+ },
+ {
+  "name": "Twin Health",
+  "ats": "greenhouse",
+  "slug": "twinhealth",
+  "careers_url": "https://job-boards.greenhouse.io/twinhealth",
+  "category": "healthtech_imaging",
+  "why": "Mountain View company using AI digital twins to treat metabolic disease; Senior and Staff AI Engineer and AI Platform roles (remote US)",
+  "verified": true
+ },
+ {
+  "name": "Oura",
+  "ats": "greenhouse",
+  "slug": "oura",
+  "careers_url": "https://job-boards.greenhouse.io/oura",
+  "category": "healthtech_imaging",
+  "why": "Health wearable with physiological-signal ML; ML Data Scientist (health sensing) and MLOps Engineer roles, remote US (senior)",
+  "verified": true
+ },
+ {
+  "name": "Eight Sleep",
+  "ats": "ashby",
+  "slug": "eightsleep",
+  "careers_url": "https://jobs.ashbyhq.com/eightsleep",
+  "category": "healthtech_imaging",
+  "why": "SF sleep-health device company; Machine Learning Engineer (Foundation Models and Personalization, not senior) plus an AI/ML research internship",
+  "verified": true
+ },
+ {
+  "name": "Hims & Hers",
+  "ats": "ashby",
+  "slug": "hims-and-hers",
+  "careers_url": "https://jobs.ashbyhq.com/hims-and-hers",
+  "category": "healthtech_imaging",
+  "why": "SF telehealth platform; applied AI and ML systems engineering roles, remote US (staff and above)",
+  "verified": true
+ },
+ {
+  "name": "Hinge Health",
+  "ats": "ashby",
+  "slug": "hinge-health",
+  "careers_url": "https://jobs.ashbyhq.com/hinge-health",
+  "category": "healthtech_imaging",
+  "why": "SF digital musculoskeletal care with computer-vision motion tracking; AI and Data & ML Platform engineering roles at SF HQ",
+  "verified": true
+ },
+ {
+  "name": "Spring Health",
+  "ats": "greenhouse",
+  "slug": "springhealth66",
+  "careers_url": "https://job-boards.greenhouse.io/springhealth66",
+  "category": "healthtech_imaging",
+  "why": "Mental-health platform using ML on clinical data; Senior ML Engineer I, AI & ML Platform (SF hybrid)",
+  "verified": true
+ },
+ {
+  "name": "Lyra Health",
+  "ats": "lever",
+  "slug": "lyrahealth",
+  "careers_url": "https://jobs.lever.co/lyrahealth",
+  "category": "healthtech_imaging",
+  "why": "Burlingame mental-health company; ML Engineer, MLOps, AI/ML platform and backend roles in the US (senior and staff)",
+  "verified": true
+ },
+ {
+  "name": "Aledade",
+  "ats": "lever",
+  "slug": "aledade",
+  "careers_url": "https://jobs.lever.co/aledade",
+  "category": "healthtech_imaging",
+  "why": "Value-based primary care that runs ML on clinical and claims data; remote US Senior SWE AI/ML and AI platform roles",
+  "verified": true
+ },
+ {
+  "name": "Viz.ai",
+  "ats": "ashby",
+  "slug": "Viz.ai",
+  "careers_url": "https://jobs.ashbyhq.com/Viz.ai",
+  "category": "healthtech_imaging",
+  "why": "SF FDA-cleared AI for stroke and other imaging-based care coordination, a strong imaging fit; board verified but no ML-titled openings today, so worth watching",
+  "verified": true
+ },
+ {
+  "name": "Cognita Imaging",
+  "ats": "ashby",
+  "slug": "cognita-Imaging",
+  "careers_url": "https://jobs.ashbyhq.com/cognita-Imaging",
+  "category": "healthtech_imaging",
+  "why": "Palo Alto startup building radiology vision-language models; board verified, currently only SWE and design roles open, so worth watching for ML training roles",
+  "verified": true
+ },
+ {
+  "name": "Subtle Medical",
+  "ats": "other",
+  "slug": "",
+  "careers_url": "https://subtlemedical.com/careers/",
+  "category": "healthtech_imaging",
+  "why": "Menlo Park deep learning for MRI/PET image enhancement and faster scans; jobs are posted on the company's own site",
+  "verified": false
+ },
+ {
+  "name": "Tempus AI (incl. Paige)",
+  "ats": "workday",
+  "slug": "tempus.wd5/Tempus_Careers",
+  "careers_url": "https://tempus.wd5.myworkdayjobs.com/Tempus_Careers",
+  "category": "healthtech_imaging",
+  "why": "Precision-medicine AI (clinical LLMs, multimodal oncology data) and digital pathology through Paige; hires on Workday",
+  "verified": true
+ },
+ {
+  "name": "Verily",
+  "ats": "workday",
+  "slug": "verily.wd1/Verily_Careers",
+  "careers_url": "https://verily.wd1.myworkdayjobs.com/Verily_Careers",
+  "category": "healthtech_imaging",
+  "why": "Alphabet's health company in South SF, doing ML on clinical, device and imaging data; hires on Workday",
+  "verified": true
+ },
+ {
+  "name": "Guardant Health",
+  "ats": "other",
+  "slug": "",
+  "careers_url": "https://guardanthealth.com/careers/jobs/",
+  "category": "healthtech_imaging",
+  "why": "Palo Alto/Redwood City liquid-biopsy genomics company with ML roles for early cancer detection; its careers site is backed by Workday",
+  "verified": false
+ },
+ {
+  "name": "Genentech",
+  "ats": "workday",
+  "slug": "roche.wd3/ROG-A2O-GENE",
+  "careers_url": "https://careers.gene.com/",
+  "category": "healthtech_imaging",
+  "why": "South SF biotech with large ML groups (gRED computational sciences, Prescient Design) working on biology, imaging and clinical data; uses its own Roche portal",
+  "verified": true
+ },
+ {
+  "name": "OpenAI",
+  "ats": "ashby",
+  "slug": "openai",
+  "careers_url": "https://jobs.ashbyhq.com/openai",
+  "category": "applied_ai",
+  "why": "Frontier lab in SF with the largest pool of non-senior SF roles (Research Engineer on Retrieval/Evals, MLE Integrity, Applied AI Engineer, Startups). Fits the RAG and eval work directly.",
+  "verified": true
+ },
+ {
+  "name": "Anthropic",
+  "ats": "greenhouse",
+  "slug": "anthropic",
+  "careers_url": "https://job-boards.greenhouse.io/anthropic",
+  "category": "applied_ai",
+  "why": "Frontier lab in SF with about 33 non-senior Bay Area ML roles, including Applied AI Engineer (one track is Life Sciences), Applied AI Research Engineer and ML Infra for Safeguards.",
+  "verified": true
+ },
+ {
+  "name": "Sierra",
+  "ats": "ashby",
+  "slug": "sierra",
+  "careers_url": "https://jobs.ashbyhq.com/sierra",
+  "category": "applied_ai",
+  "why": "Customer-service AI agents company in SF.",
+  "verified": true
+ },
+ {
+  "name": "Scale AI",
+  "ats": "greenhouse",
+  "slug": "scaleai",
+  "careers_url": "https://job-boards.greenhouse.io/scaleai",
+  "category": "applied_ai",
+  "why": "AI data and evaluation company in SF. Has a SWE New Grad role (SF), Forward Deployed Engineer GenAI and Frontier Agents Engineer roles. Some public-sector postings require clearance, so skip those.",
+  "verified": true
+ },
+ {
+  "name": "Distyl AI",
+  "ats": "ashby",
+  "slug": "distyl",
+  "careers_url": "https://jobs.ashbyhq.com/distyl",
+  "category": "applied_ai",
+  "why": "Enterprise AI systems company in SF, remote-friendly. 12 non-senior roles: AI Engineer, AI Engineer Evaluation, and Research Engineer for Agents and for Data. Close match to the RAG and eval-harness work.",
+  "verified": true
+ },
+ {
+  "name": "Mercor",
+  "ats": "ashby",
+  "slug": "mercor",
+  "careers_url": "https://jobs.ashbyhq.com/mercor",
+  "category": "applied_ai",
+  "why": "AI training-data and eval company in SF (Series C). 11 non-senior SF roles: SWE Applied AI, SWE Machine Learning, Research Engineer for Environments/Benchmarking, and Agents.",
+  "verified": true
+ },
+ {
+  "name": "Baseten",
+  "ats": "ashby",
+  "slug": "baseten",
+  "careers_url": "https://jobs.ashbyhq.com/baseten",
+  "category": "applied_ai",
+  "why": "Inference platform in SF, remote in the US OK. 9 non-senior roles, including AI Engineer (two openings), AI Inference Engineer and Post-Training Research Engineer. Good for serving/MLOps growth.",
+  "verified": true
+ },
+ {
+  "name": "Mistral AI",
+  "ats": "ashby",
+  "slug": "mistral.ai",
+  "careers_url": "https://jobs.ashbyhq.com/mistral.ai",
+  "category": "applied_ai",
+  "why": "Foundation-model lab with a Palo Alto/SF office. US roles include Research Engineer ML, Applied AI Forward Deployed MLE, AI Scientist and Code Agents Infra. Most roles are Paris, so filter by location.",
+  "verified": true
+ },
+ {
+  "name": "Thinking Machines Lab",
+  "ats": "ashby",
+  "slug": "thinkingmachines",
+  "careers_url": "https://jobs.ashbyhq.com/thinkingmachines",
+  "category": "applied_ai",
+  "why": "Well-funded frontier lab in SF. None of its 7 ML roles have a senior title: Research Engineer for Inference, Training Systems and Kernels, plus Coding Agents and General Agents research.",
+  "verified": true
+ },
+ {
+  "name": "Writer",
+  "ats": "ashby",
+  "slug": "writer",
+  "careers_url": "https://jobs.ashbyhq.com/writer",
+  "category": "applied_ai",
+  "why": "Enterprise GenAI platform in SF, remote in the US OK. Has AI engineer, Software engineer for generative AI and for agents, and an AI deployment engineer (West) role, all without senior titles.",
+  "verified": true
+ },
+ {
+  "name": "Decagon",
+  "ats": "ashby",
+  "slug": "decagon",
+  "careers_url": "https://jobs.ashbyhq.com/decagon",
+  "category": "applied_ai",
+  "why": "Customer-support AI agents company in SF. Has 'Member of Technical Staff - New Grad (2027 Start)', plus Agent Deployment Engineer and Research Engineer roles.",
+  "verified": true
+ },
+ {
+  "name": "Deepgram",
+  "ats": "ashby",
+  "slug": "deepgram",
+  "careers_url": "https://jobs.ashbyhq.com/deepgram",
+  "category": "applied_ai",
+  "why": "Voice AI company, remote-first in the US. 7 non-senior remote roles: Research Engineer ML Systems, ML Ops Infrastructure Engineer, Applied ML Engineer (Edge) and Inference Services.",
+  "verified": true
+ },
+ {
+  "name": "Anysphere (Cursor)",
+  "ats": "ashby",
+  "slug": "cursor",
+  "careers_url": "https://jobs.ashbyhq.com/cursor",
+  "category": "applied_ai",
+  "why": "AI coding agent company in SF (board confirmed as Cursor). Has 'Software Engineer, New Grad 2027', plus SWE roles in ML Research, ML Platform, Agent Evaluation & Quality and Model Routing & Inference.",
+  "verified": true
+ },
+ {
+  "name": "Together AI",
+  "ats": "greenhouse",
+  "slug": "togetherai",
+  "careers_url": "https://job-boards.greenhouse.io/togetherai",
+  "category": "applied_ai",
+  "why": "AI inference and training cloud in SF. Has 'Software Engineer, New Grad (2027)', a Junior/Senior Inference SWE role, MLE Inference, and Research Engineer Post-Training roles.",
+  "verified": true
+ },
+ {
+  "name": "Character.AI",
+  "ats": "ashby",
+  "slug": "character",
+  "careers_url": "https://jobs.ashbyhq.com/character",
+  "category": "applied_ai",
+  "why": "Consumer LLM company in Redwood City, remote OK. Research Engineer Post-Training is posted as 'All Industry Levels'. Also has Applied ML SWE for Recommendations and ML Infra.",
+  "verified": true
+ },
+ {
+  "name": "Periodic Labs",
+  "ats": "ashby",
+  "slug": "periodic-labs",
+  "careers_url": "https://jobs.ashbyhq.com/periodic-labs",
+  "category": "applied_ai",
+  "why": "Well-funded AI-for-science lab in Menlo Park. Non-senior ML Systems Engineer and Research Engineer roles for Midtraining, Materials Data and Lab Automation.",
+  "verified": true
+ },
+ {
+  "name": "Notion",
+  "ats": "ashby",
+  "slug": "notion",
+  "careers_url": "https://jobs.ashbyhq.com/notion",
+  "category": "other",
+  "why": "ML/AI roles in the Bay Area or US-remote.",
+  "verified": true
+ },
+ {
+  "name": "ElevenLabs",
+  "ats": "ashby",
+  "slug": "elevenlabs",
+  "careers_url": "https://jobs.ashbyhq.com/elevenlabs",
+  "category": "applied_ai",
+  "why": "Voice AI scaleup, remote-first with US remote eligible. Non-senior Research Engineer roles for Inference and Data Infrastructure.",
+  "verified": true
+ },
+ {
+  "name": "Fireworks AI",
+  "ats": "ashby",
+  "slug": "fireworks",
+  "careers_url": "https://jobs.ashbyhq.com/fireworks",
+  "category": "applied_ai",
+  "why": "Inference and fine-tuning platform in San Mateo, remote OK. Has 'MTS, New Grad (BS/MS)', Applied Machine Learning Engineer and AI Product Engineer roles.",
+  "verified": true
+ },
+ {
+  "name": "xAI",
+  "ats": "greenhouse",
+  "slug": "xai",
+  "careers_url": "https://job-boards.greenhouse.io/xai",
+  "category": "applied_ai",
+  "why": "Frontier lab in Palo Alto (the board is now branded SpaceXAI). Has MLE Recommendation Systems, MLE Ads and ML Infra roles. Those postings showed no ITAR text, but check each one.",
+  "verified": true
+ },
+ {
+  "name": "Cohere",
+  "ats": "ashby",
+  "slug": "cohere",
+  "careers_url": "https://jobs.ashbyhq.com/cohere",
+  "category": "applied_ai",
+  "why": "Enterprise LLM lab with SF/NY offices and US remote. Non-senior Audio Inference Engineer, SWE Agents & Automations and Security Agents roles.",
+  "verified": true
+ },
+ {
+  "name": "Prime Intellect",
+  "ats": "ashby",
+  "slug": "primeintellect",
+  "careers_url": "https://jobs.ashbyhq.com/primeintellect",
+  "category": "applied_ai",
+  "why": "Decentralized training and RL lab in SF, remote OK. Research Engineer roles for RL, RL Infra and Distributed Training, plus Applied Research for RL & Agents.",
+  "verified": true
+ },
+ {
+  "name": "Harmonic",
+  "ats": "ashby",
+  "slug": "harmonic",
+  "careers_url": "https://jobs.ashbyhq.com/harmonic",
+  "category": "applied_ai",
+  "why": "Math-reasoning AI lab in Palo Alto. Non-senior Research Engineer, Training & Inference and SWE ML Systems roles.",
+  "verified": true
+ },
+ {
+  "name": "Cognition",
+  "ats": "ashby",
+  "slug": "cognition",
+  "careers_url": "https://jobs.ashbyhq.com/cognition",
+  "category": "applied_ai",
+  "why": "Maker of the Devin and Windsurf coding agents, in SF. Applied AI Engineer, Research Engineer for Post-/Mid-Training and ML Infra roles.",
+  "verified": true
+ },
+ {
+  "name": "Glean",
+  "ats": "greenhouse",
+  "slug": "gleanwork",
+  "careers_url": "https://job-boards.greenhouse.io/gleanwork",
+  "category": "applied_ai",
+  "why": "Enterprise AI search and assistant company in Palo Alto/SF. MLE Assistant Quality, MLE Search Quality and SWE AI/ML Infra roles line up with the RAG/retrieval project.",
+  "verified": true
+ },
+ {
+  "name": "Reducto",
+  "ats": "ashby",
+  "slug": "reducto",
+  "careers_url": "https://jobs.ashbyhq.com/reducto",
+  "category": "applied_ai",
+  "why": "Document-ingestion AI for RAG pipelines, in SF. Non-senior ML Engineer, ML Infra Engineer and Backend/AI Engineer roles. Direct match to the document-assistant project.",
+  "verified": true
+ },
+ {
+  "name": "Letta",
+  "ats": "ashby",
+  "slug": "letta",
+  "careers_url": "https://jobs.ashbyhq.com/letta",
+  "category": "applied_ai",
+  "why": "Agent memory and stateful-agents startup in SF. All 4 openings are non-senior Research Engineer (Memory, Post-Training) or Agent Harness roles.",
+  "verified": true
+ },
+ {
+  "name": "Krea",
+  "ats": "ashby",
+  "slug": "krea",
+  "careers_url": "https://jobs.ashbyhq.com/krea",
+  "category": "applied_ai",
+  "why": "Generative image/video AI company in SF. Non-senior Machine Learning Engineer, MLE Personalization and ML Researcher roles. A route in for someone with a CV background.",
+  "verified": true
+ },
+ {
+  "name": "Cerebras",
+  "ats": "ashby",
+  "slug": "cerebras",
+  "careers_url": "https://jobs.ashbyhq.com/cerebras",
+  "category": "applied_ai",
+  "why": "AI inference hardware and cloud in Sunnyvale. AI Engineer Model Quality & Performance, Inference Platform SWE and a 'Kernel Engineer - New Grad' role.",
+  "verified": true
+ },
+ {
+  "name": "LangChain",
+  "ats": "ashby",
+  "slug": "langchain",
+  "careers_url": "https://jobs.ashbyhq.com/langchain",
+  "category": "applied_ai",
+  "why": "LLM agent framework and LangSmith evals company in SF. Has 'Deployed Engineer (Early Career - SF)', Research Engineer LangSmith and AI Engineer roles.",
+  "verified": true
+ },
+ {
+  "name": "Handshake",
+  "ats": "ashby",
+  "slug": "handshake",
+  "careers_url": "https://jobs.ashbyhq.com/handshake",
+  "category": "applied_ai",
+  "why": "Handshake AI (training-data arm) in SF. Applied AI Engineer, SWE Enterprise AI and 'Forward Deployed Engineer I' roles.",
+  "verified": true
+ },
+ {
+  "name": "World Labs",
+  "ats": "ashby",
+  "slug": "worldlabs",
+  "careers_url": "https://jobs.ashbyhq.com/worldlabs",
+  "category": "applied_ai",
+  "why": "Spatial-intelligence and 3D world-model lab in SF. Non-senior Research Engineer (SLAM) and Performance Engineer roles.",
+  "verified": true
+ },
+ {
+  "name": "Hebbia",
+  "ats": "ashby",
+  "slug": "hebbia-ai",
+  "careers_url": "https://jobs.ashbyhq.com/hebbia-ai",
+  "category": "applied_ai",
+  "why": "AI research agents for finance and legal, SF/NYC. Non-senior Applied Research Engineer Agents and Backend Engineer Agents roles.",
+  "verified": true
+ },
+ {
+  "name": "Gamma",
+  "ats": "ashby",
+  "slug": "gamma",
+  "careers_url": "https://jobs.ashbyhq.com/gamma",
+  "category": "applied_ai",
+  "why": "AI presentation app in SF. Non-senior AI Engineer and Research Engineer roles.",
+  "verified": true
+ },
+ {
+  "name": "Elicit",
+  "ats": "ashby",
+  "slug": "elicit",
+  "careers_url": "https://jobs.ashbyhq.com/elicit",
+  "category": "applied_ai",
+  "why": "AI research assistant (LLM plus retrieval over papers) in Oakland, remote in US time zones OK. ML Engineer, AI Engineer and an ML Research Resident role.",
+  "verified": true
+ },
+ {
+  "name": "Composio",
+  "ats": "ashby",
+  "slug": "composio",
+  "careers_url": "https://jobs.ashbyhq.com/composio",
+  "category": "applied_ai",
+  "why": "Agent tool-integration platform in SF. Has 'Forward Deployed Engineer (New Grad)' and Forward Deployed Research Engineer roles.",
+  "verified": true
+ },
+ {
+  "name": "Clay",
+  "ats": "ashby",
+  "slug": "claylabs",
+  "careers_url": "https://jobs.ashbyhq.com/claylabs",
+  "category": "applied_ai",
+  "why": "AI sales and data-enrichment scaleup, SF/NY, remote OK. Non-senior Machine Learning Engineer and SWE Applied AI roles.",
+  "verified": true
+ },
+ {
+  "name": "Ramp",
+  "ats": "ashby",
+  "slug": "ramp",
+  "careers_url": "https://jobs.ashbyhq.com/ramp",
+  "category": "other",
+  "why": "Fintech that builds heavily with AI, NY HQ with SF and remote. Non-senior Applied AI Engineer and Applied AI Engineer Fullstack roles.",
+  "verified": true
+ },
+ {
+  "name": "Sesame",
+  "ats": "ashby",
+  "slug": "sesame",
+  "careers_url": "https://jobs.ashbyhq.com/sesame",
+  "category": "applied_ai",
+  "why": "Conversational voice AI company in SF. Non-senior ML Model Serving Engineer, Research Engineer and ML Data Engineer roles.",
+  "verified": true
+ },
+ {
+  "name": "Tavus",
+  "ats": "ashby",
+  "slug": "tavus",
+  "careers_url": "https://jobs.ashbyhq.com/tavus",
+  "category": "applied_ai",
+  "why": "Conversational video AI company in SF, some roles US remote. Data Engineer/ML Ops, Conversational Modelling Research Engineer and AI Researcher roles.",
+  "verified": true
+ },
+ {
+  "name": "Anyscale",
+  "ats": "ashby",
+  "slug": "anyscale",
+  "careers_url": "https://jobs.ashbyhq.com/anyscale",
+  "category": "applied_ai",
+  "why": "Ray and distributed AI compute company in SF, remote OK. MLE Customer Engineering, Distributed LLM Inference Engineer and ML DevEx SWE roles.",
+  "verified": true
+ },
+ {
+  "name": "Etched",
+  "ats": "ashby",
+  "slug": "etched",
+  "careers_url": "https://jobs.ashbyhq.com/etched",
+  "category": "applied_ai",
+  "why": "Transformer inference ASIC startup in San Jose. Non-senior Inference Software Engineer and Applied AI Engineer roles.",
+  "verified": true
+ },
+ {
+  "name": "Reflection AI",
+  "ats": "ashby",
+  "slug": "reflectionai",
+  "careers_url": "https://jobs.ashbyhq.com/reflectionai",
+  "category": "applied_ai",
+  "why": "Open frontier-model lab, SF/NY. Forward Deployed 'AI Engineer' and 'LLM Post-training' roles.",
+  "verified": true
+ },
+ {
+  "name": "Factory",
+  "ats": "ashby",
+  "slug": "factory",
+  "careers_url": "https://jobs.ashbyhq.com/factory",
+  "category": "applied_ai",
+  "why": "AI coding agents ('Droids') company in SF. Non-senior Software Engineer AI and Research Engineer roles.",
+  "verified": true
+ },
+ {
+  "name": "Exa",
+  "ats": "ashby",
+  "slug": "exa",
+  "careers_url": "https://jobs.ashbyhq.com/exa",
+  "category": "applied_ai",
+  "why": "AI search API company in SF. Research ML and Research Engineer Generalist roles. Close to the retrieval work.",
+  "verified": true
+ },
+ {
+  "name": "Hex",
+  "ats": "greenhouse",
+  "slug": "hextechnologies",
+  "careers_url": "https://job-boards.greenhouse.io/hextechnologies",
+  "category": "applied_ai",
+  "why": "AI-native data analytics workspace, SF/NYC. AI Research Engineer and SWE AI Agent roles.",
+  "verified": true
+ },
+ {
+  "name": "Speak",
+  "ats": "ashby",
+  "slug": "speak",
+  "careers_url": "https://jobs.ashbyhq.com/speak",
+  "category": "applied_ai",
+  "why": "AI language-learning app (OpenAI-backed) in SF, remote OK. MLE Voice and AI Product Engineer roles. Fluency in five languages is an advantage here.",
+  "verified": true
+ },
+ {
+  "name": "Otter.ai",
+  "ats": "greenhouse",
+  "slug": "otterai",
+  "careers_url": "https://job-boards.greenhouse.io/otterai",
+  "category": "applied_ai",
+  "why": "AI meeting assistant in Mountain View. Non-senior Machine Learning Engineer and SWE AI Agent & LLM roles.",
+  "verified": true
+ },
+ {
+  "name": "Ema",
+  "ats": "ashby",
+  "slug": "ema",
+  "careers_url": "https://jobs.ashbyhq.com/ema",
+  "category": "applied_ai",
+  "why": "Enterprise agentic-AI startup in the Bay Area.",
+  "verified": true
+ },
+ {
+  "name": "Observe.AI",
+  "ats": "greenhouse",
+  "slug": "observeai",
+  "careers_url": "https://job-boards.greenhouse.io/observeai",
+  "category": "applied_ai",
+  "why": "Contact-center voice AI agents company in Redwood City. Non-senior AI Agent Engineer roles (Redwood City hybrid or US remote).",
+  "verified": true
+ },
+ {
+  "name": "Cartesia",
+  "ats": "ashby",
+  "slug": "cartesia",
+  "careers_url": "https://jobs.ashbyhq.com/cartesia",
+  "category": "applied_ai",
+  "why": "Real-time voice model (SSM) startup in SF. Non-senior Inference Engineer and SWE Agent Harness roles.",
+  "verified": true
+ },
+ {
+  "name": "Bland AI",
+  "ats": "ashby",
+  "slug": "bland",
+  "careers_url": "https://jobs.ashbyhq.com/bland",
+  "category": "applied_ai",
+  "why": "Voice AI phone-agent company in SF. ML Researcher roles for Audio and Multimodal LLMs, plus Agent Solutions Engineer.",
+  "verified": true
+ },
+ {
+  "name": "Luma AI",
+  "ats": "ashby",
+  "slug": "lumaai",
+  "careers_url": "https://jobs.ashbyhq.com/lumaai",
+  "category": "applied_ai",
+  "why": "Video and 3D generative model lab in Redwood City, remote OK. SWE Inference and Foundation Model Research Engineer roles.",
+  "verified": true
+ },
+ {
+  "name": "Traversal",
+  "ats": "ashby",
+  "slug": "traversal",
+  "careers_url": "https://jobs.ashbyhq.com/traversal",
+  "category": "applied_ai",
+  "why": "AI SRE/observability agents company, US remote roles. AI Adoption Engineer (West/East) roles without senior titles.",
+  "verified": true
+ },
+ {
+  "name": "CoreWeave",
+  "ats": "greenhouse",
+  "slug": "coreweave",
+  "careers_url": "https://job-boards.greenhouse.io/coreweave",
+  "category": "applied_ai",
+  "why": "AI cloud (now owns Weights & Biases). AI Engineer and SWE Inference AI/ML roles in Sunnyvale.",
+  "verified": true
+ },
+ {
+  "name": "Arize AI",
+  "ats": "greenhouse",
+  "slug": "arizeai",
+  "careers_url": "https://job-boards.greenhouse.io/arizeai",
+  "category": "applied_ai",
+  "why": "LLM observability and evaluation company, SF, remote OK. Applied AI Engineer and Forward Deployed AI Engineer (West) roles. Matches the eval-harness experience.",
+  "verified": true
+ },
+ {
+  "name": "Magic",
+  "ats": "ashby",
+  "slug": "magic.dev",
+  "careers_url": "https://jobs.ashbyhq.com/magic.dev",
+  "category": "applied_ai",
+  "why": "Long-context code-model lab in SF. Research Engineer role without a senior title.",
+  "verified": true
+ },
+ {
+  "name": "Nous Research",
+  "ats": "ashby",
+  "slug": "nousresearch",
+  "careers_url": "https://jobs.ashbyhq.com/nousresearch",
+  "category": "applied_ai",
+  "why": "Open-model lab with US-remote hiring. ML Engineer, Evals role fits the LLM-eval experience.",
+  "verified": true
+ },
+ {
+  "name": "Goodfire",
+  "ats": "greenhouse",
+  "slug": "goodfire",
+  "careers_url": "https://job-boards.greenhouse.io/goodfire",
+  "category": "applied_ai",
+  "why": "Interpretability startup in SF (Series B). Machine Learning Engineer role without a senior title.",
+  "verified": true
+ },
+ {
+  "name": "DatologyAI",
+  "ats": "ashby",
+  "slug": "datologyai",
+  "careers_url": "https://jobs.ashbyhq.com/datologyai",
+  "category": "applied_ai",
+  "why": "Training-data curation startup in San Mateo. Research Engineer role without a senior title.",
+  "verified": true
+ },
+ {
+  "name": "Sourcegraph",
+  "ats": "greenhouse",
+  "slug": "sourcegraph91",
+  "careers_url": "https://job-boards.greenhouse.io/sourcegraph91",
+  "category": "applied_ai",
+  "why": "Maker of the Amp coding agent and code search, remote-first. ML & Agentic Systems Engineer [IC4] is a remote role; IC4 may be mid-level.",
+  "verified": true
+ },
+ {
+  "name": "Greptile",
+  "ats": "ashby",
+  "slug": "greptile",
+  "careers_url": "https://jobs.ashbyhq.com/greptile",
+  "category": "applied_ai",
+  "why": "AI code-review startup in SF. Research Engineer role without a senior title.",
+  "verified": true
+ },
+ {
+  "name": "Mintlify",
+  "ats": "ashby",
+  "slug": "mintlify",
+  "careers_url": "https://jobs.ashbyhq.com/mintlify",
+  "category": "applied_ai",
+  "why": "AI documentation platform in SF. Applied AI Engineer role without a senior title.",
+  "verified": true
+ },
+ {
+  "name": "Parallel Web Systems",
+  "ats": "ashby",
+  "slug": "parallel",
+  "careers_url": "https://jobs.ashbyhq.com/parallel",
+  "category": "applied_ai",
+  "why": "Web-search APIs for AI agents, Palo Alto. Has an explicit 'Early Career Research Engineer' opening.",
+  "verified": true
+ },
+ {
+  "name": "Suno",
+  "ats": "ashby",
+  "slug": "suno",
+  "careers_url": "https://jobs.ashbyhq.com/suno",
+  "category": "applied_ai",
+  "why": "Generative music AI scaleup, SF/Boston. Machine Learning Scientist role without a senior title.",
+  "verified": true
+ },
+ {
+  "name": "Pika",
+  "ats": "ashby",
+  "slug": "pika",
+  "careers_url": "https://jobs.ashbyhq.com/pika",
+  "category": "applied_ai",
+  "why": "Generative video startup in Palo Alto. ML Engineer, Inference & Optimization role.",
+  "verified": true
+ },
+ {
+  "name": "Descript",
+  "ats": "greenhouse",
+  "slug": "descript",
+  "careers_url": "https://job-boards.greenhouse.io/descript",
+  "category": "applied_ai",
+  "why": "AI audio/video editing company, SF or US remote. Applied Research Scientist, AI Research role.",
+  "verified": true
+ },
+ {
+  "name": "Harvey",
+  "ats": "ashby",
+  "slug": "harvey",
+  "careers_url": "https://jobs.ashbyhq.com/harvey",
+  "category": "applied_ai",
+  "why": "Legal AI scaleup in SF. Research Engineer Post-Training (SF, remote OK) has no senior title; most other AI roles are senior.",
+  "verified": true
+ },
+ {
+  "name": "Modal",
+  "ats": "ashby",
+  "slug": "modal",
+  "careers_url": "https://jobs.ashbyhq.com/modal",
+  "category": "applied_ai",
+  "why": "Serverless GPU and AI infra company, SF/NY. Forward Deployed Engineer - ML role.",
+  "verified": true
+ },
+ {
+  "name": "LlamaIndex",
+  "ats": "ashby",
+  "slug": "llamaindex",
+  "careers_url": "https://jobs.ashbyhq.com/llamaindex",
+  "category": "applied_ai",
+  "why": "RAG and agent framework company in SF, remote OK. AI Content Engineer role.",
+  "verified": true
+ },
+ {
+  "name": "Perplexity",
+  "ats": "ashby",
+  "slug": "perplexity",
+  "careers_url": "https://jobs.ashbyhq.com/perplexity",
+  "category": "applied_ai",
+  "why": "AI search company in SF/Palo Alto. Has 'MTS, AI Products (Early Career - Industry)', plus MTS roles for Applied AI SWE and AI Inference.",
+  "verified": true
+ },
+ {
+  "name": "Replit",
+  "ats": "ashby",
+  "slug": "replit",
+  "careers_url": "https://jobs.ashbyhq.com/replit",
+  "category": "applied_ai",
+  "why": "AI coding agent platform in Foster City, remote OK. Has 'Software Engineer - New Grad (2027)'. Only 1 ML-titled role, and it is senior.",
+  "verified": true
+ },
+ {
+  "name": "Inferact (vLLM)",
+  "ats": "ashby",
+  "slug": "inferact",
+  "careers_url": "https://jobs.ashbyhq.com/inferact",
+  "category": "applied_ai",
+  "why": "vLLM-founder inference startup, SF or remote. MTS Inference roles (SF and remote). The MTS title does not state a level.",
+  "verified": true
+ },
+ {
+  "name": "Browserbase",
+  "ats": "ashby",
+  "slug": "browserbase",
+  "careers_url": "https://jobs.ashbyhq.com/browserbase",
+  "category": "applied_ai",
+  "why": "Headless-browser infrastructure for AI agents, SF. Software Engineer (Agent Platform) role.",
+  "verified": true
+ },
+ {
+  "name": "Hugging Face",
+  "ats": "other",
+  "slug": "",
+  "careers_url": "https://apply.workable.com/huggingface/",
+  "category": "applied_ai",
+  "why": "Open-source ML hub, remote-first with US remote hiring. Uses Workable, which is outside the supported ATS list, so roles were not counted.",
+  "verified": false
+ },
+ {
+  "name": "EvenUp",
+  "ats": "other",
+  "slug": "",
+  "careers_url": "https://www.evenuplaw.com/careers",
+  "category": "applied_ai",
+  "why": "Legal GenAI scaleup in SF.",
+  "verified": false
+ },
+ {
+  "name": "Stripe",
+  "ats": "greenhouse",
+  "slug": "stripe",
+  "careers_url": "https://job-boards.greenhouse.io/stripe",
+  "category": "established_ml",
+  "why": "SF/South SF payments ML (fraud, risk, Radar); non-senior 'Machine Learning Engineer' (South SF) and remote-US 'Abuse Research Engineer' open",
+  "verified": true
+ },
+ {
+  "name": "Pinterest",
+  "ats": "greenhouse",
+  "slug": "pinterest",
+  "careers_url": "https://www.pinterestcareers.com/",
+  "category": "established_ml",
+  "why": "Recs/ads/visual-search ML; 'Machine Learning Engineer II, Visual AI' (SF/remote US) is a CV fit, plus MLE Core/Monetization roles",
+  "verified": true
+ },
+ {
+  "name": "Lyft",
+  "ats": "greenhouse",
+  "slug": "lyft",
+  "careers_url": "https://job-boards.greenhouse.io/lyft",
+  "category": "established_ml",
+  "why": "SF marketplace, pricing and ETA ML; non-senior 'Machine Learning Engineer, Fulfillment' and 'ML Software Engineer, ETA' open in SF",
+  "verified": true
+ },
+ {
+  "name": "Figma",
+  "ats": "greenhouse",
+  "slug": "figma",
+  "careers_url": "https://job-boards.greenhouse.io/figma",
+  "category": "established_ml",
+  "why": "SF AI product org; 'Software Engineer - Machine Learning', 'Software Engineer - AI Product' and 'AI Applied Scientist' open (SF/US)",
+  "verified": true
+ },
+ {
+  "name": "DoorDash",
+  "ats": "greenhouse",
+  "slug": "doordashusa",
+  "careers_url": "https://job-boards.greenhouse.io/doordashusa",
+  "category": "established_ml",
+  "why": "SF/Sunnyvale marketplace and logistics ML; 'Machine Learning Engineer, Marketplace Optimization' and 'SWE, ML Infrastructure - Generative AI' open",
+  "verified": true
+ },
+ {
+  "name": "Roku",
+  "ats": "greenhouse",
+  "slug": "roku",
+  "careers_url": "https://job-boards.greenhouse.io/roku",
+  "category": "established_ml",
+  "why": "San Jose; 42 ML/AI titles including 'Software Engineer, Early Careers focused on AI and UI'",
+  "verified": true
+ },
+ {
+  "name": "Verkada",
+  "ats": "greenhouse",
+  "slug": "verkada",
+  "careers_url": "https://job-boards.greenhouse.io/verkada",
+  "category": "established_ml",
+  "why": "San Mateo video-security CV; 'Software Engineer - Computer Vision' and 'Software Engineer - Imaging Systems', a CV/imaging fit",
+  "verified": true
+ },
+ {
+  "name": "Thumbtack",
+  "ats": "ashby",
+  "slug": "thumbtack",
+  "careers_url": "https://jobs.ashbyhq.com/thumbtack",
+  "category": "established_ml",
+  "why": "Remote-first home-services marketplace ML; 'SWE, AI/ML Infrastructure (US-Based)' and 'Full-Stack Engineer, AI Platform' remote US",
+  "verified": true
+ },
+ {
+  "name": "GitLab",
+  "ats": "greenhouse",
+  "slug": "gitlab",
+  "careers_url": "https://job-boards.greenhouse.io/gitlab",
+  "category": "established_ml",
+  "why": "All-remote; AI Engineering (Duo Chat, Agent Observability) backend/fullstack roles open to US remote, a good fit for LLM product engineering",
+  "verified": true
+ },
+ {
+  "name": "Gusto",
+  "ats": "greenhouse",
+  "slug": "gusto",
+  "careers_url": "https://job-boards.greenhouse.io/gusto",
+  "category": "established_ml",
+  "why": "SF hybrid; non-senior 'Software Engineer, ML Platform' and 'Software Engineer, AI Developer Tools' open",
+  "verified": true
+ },
+ {
+  "name": "Vercel",
+  "ats": "greenhouse",
+  "slug": "vercel",
+  "careers_url": "https://job-boards.greenhouse.io/vercel",
+  "category": "established_ml",
+  "why": "SF hybrid; 'Software Engineer, AI SDK' and 'Software Engineer, AI Gateway' fit LLM app-infra work",
+  "verified": true
+ },
+ {
+  "name": "Brex",
+  "ats": "greenhouse",
+  "slug": "brex",
+  "careers_url": "https://job-boards.greenhouse.io/brex",
+  "category": "established_ml",
+  "why": "SF fintech; 'AI Engineer, Product' (SF) matches the LLM/agents profile",
+  "verified": true
+ },
+ {
+  "name": "Nextdoor",
+  "ats": "greenhouse",
+  "slug": "nextdoor",
+  "careers_url": "https://job-boards.greenhouse.io/nextdoor",
+  "category": "established_ml",
+  "why": "SF local social network with ads ML; 'Machine Learning Engineer - Ads' open US Remote",
+  "verified": true
+ },
+ {
+  "name": "Twilio",
+  "ats": "greenhouse",
+  "slug": "twilio",
+  "careers_url": "https://job-boards.greenhouse.io/twilio",
+  "category": "established_ml",
+  "why": "Remote-first; 'Machine Learning Engineer' Remote-US open",
+  "verified": true
+ },
+ {
+  "name": "Okta",
+  "ats": "greenhouse",
+  "slug": "okta",
+  "careers_url": "https://job-boards.greenhouse.io/okta",
+  "category": "established_ml",
+  "why": "SF identity/security; 'Software Engineer II, Frontend Agentic AI' (SF) among 15 AI titles",
+  "verified": true
+ },
+ {
+  "name": "Affirm",
+  "ats": "greenhouse",
+  "slug": "affirm",
+  "careers_url": "https://job-boards.greenhouse.io/affirm",
+  "category": "established_ml",
+  "why": "Credit and underwriting ML; 'Machine Learning Engineer II (Underwriting ML)' Remote US (stretch level)",
+  "verified": true
+ },
+ {
+  "name": "Upstart",
+  "ats": "greenhouse",
+  "slug": "upstart",
+  "careers_url": "https://job-boards.greenhouse.io/upstart",
+  "category": "established_ml",
+  "why": "Remote-US AI lending; two non-senior 'Applied Scientist' roles (credit ML)",
+  "verified": true
+ },
+ {
+  "name": "Sift",
+  "ats": "ashby",
+  "slug": "sift",
+  "careers_url": "https://jobs.ashbyhq.com/sift",
+  "category": "established_ml",
+  "why": "SF fraud/risk ML; 'Machine Learning Engineer' open (SF/Seattle/remote US)",
+  "verified": true
+ },
+ {
+  "name": "Sardine",
+  "ats": "ashby",
+  "slug": "sardine",
+  "careers_url": "https://jobs.ashbyhq.com/sardine",
+  "category": "established_ml",
+  "why": "Remote-US fraud/risk ML; 'Machine Learning Engineer' (North America remote) and 'Forward Deployed AI Engineer' open",
+  "verified": true
+ },
+ {
+  "name": "Socure",
+  "ats": "ashby",
+  "slug": "socure",
+  "careers_url": "https://jobs.ashbyhq.com/socure",
+  "category": "established_ml",
+  "why": "Remote-US identity/fraud ML; 'AI Engineer' (Remote USA) open",
+  "verified": true
+ },
+ {
+  "name": "Hive",
+  "ats": "lever",
+  "slug": "hive",
+  "careers_url": "https://jobs.lever.co/hive",
+  "category": "established_ml",
+  "why": "SF content-moderation and CV AI (Hive AI); 'Machine Learning Engineer' open in SF",
+  "verified": true
+ },
+ {
+  "name": "Poshmark",
+  "ats": "ashby",
+  "slug": "poshmark",
+  "careers_url": "https://jobs.ashbyhq.com/poshmark",
+  "category": "established_ml",
+  "why": "Redwood City marketplace; two 'Software Engineer II, Machine Learning' roles on-site (stretch level)",
+  "verified": true
+ },
+ {
+  "name": "AppLovin",
+  "ats": "greenhouse",
+  "slug": "applovin",
+  "careers_url": "https://www.applovin.com/careers",
+  "category": "established_ml",
+  "why": "Palo Alto ads ML; 'Software Engineer, Machine Learning' and 'ML Infrastructure Engineer' open",
+  "verified": true
+ },
+ {
+  "name": "Liftoff",
+  "ats": "greenhouse",
+  "slug": "liftoff",
+  "careers_url": "https://liftoff.io/company/careers/jobs/",
+  "category": "established_ml",
+  "why": "Mobile ad ML; 'Machine Learning Engineer' (Remote US/California) and 'Software Engineer, ML Data' (Bay Area)",
+  "verified": true
+ },
+ {
+  "name": "Pure Storage",
+  "ats": "greenhouse",
+  "slug": "purestorage",
+  "careers_url": "https://job-boards.greenhouse.io/purestorage",
+  "category": "established_ml",
+  "why": "Santa Clara; 'Applied AI Engineer' and 'Machine Learning Engineer, Digital Experience' open",
+  "verified": true
+ },
+ {
+  "name": "ServiceNow",
+  "ats": "smartrecruiters",
+  "slug": "servicenow",
+  "careers_url": "https://careers.smartrecruiters.com/servicenow",
+  "category": "established_ml",
+  "why": "Santa Clara (includes Moveworks); 61 ML/AI titles including 'Machine Learning Engineer, GAI Search Relevance'",
+  "verified": true
+ },
+ {
+  "name": "Samsung Research America",
+  "ats": "greenhouse",
+  "slug": "samsungresearchamerica",
+  "careers_url": "https://job-boards.greenhouse.io/samsungresearchamerica",
+  "category": "established_ml",
+  "why": "Mountain View R&D lab; 'Research Engineer, Robot Intelligence' and other AI research roles",
+  "verified": true
+ },
+ {
+  "name": "Snowflake",
+  "ats": "ashby",
+  "slug": "snowflake",
+  "careers_url": "https://jobs.ashbyhq.com/snowflake",
+  "category": "established_ml",
+  "why": "Menlo Park AI data cloud; 'Software Engineer (AI-Native)' in Menlo Park among 31 ML/AI titles",
+  "verified": true
+ },
+ {
+  "name": "Samsara",
+  "ats": "greenhouse",
+  "slug": "samsara",
+  "careers_url": "https://job-boards.greenhouse.io/samsara",
+  "category": "established_ml",
+  "why": "SF IoT/dashcam CV ML; non-senior 'Finance & Strategy AI Engineer' (SF) open alongside mostly senior platform ML roles",
+  "verified": true
+ },
+ {
+  "name": "Databricks",
+  "ats": "greenhouse",
+  "slug": "databricks",
+  "careers_url": "https://job-boards.greenhouse.io/databricks",
+  "category": "established_ml",
+  "why": "SF/Mountain View data+AI platform with a large ML org; current ML/AI titles are mostly senior or forward-deployed, and it has a history of new-grad hiring",
+  "verified": true
+ },
+ {
+  "name": "Reddit",
+  "ats": "greenhouse",
+  "slug": "reddit",
+  "careers_url": "https://job-boards.greenhouse.io/reddit",
+  "category": "established_ml",
+  "why": "Ranking, ads and safety ML (SF/remote); many ML titles open but currently senior-level, so watch for MLE/new-grad postings",
+  "verified": true
+ },
+ {
+  "name": "Airbnb",
+  "ats": "greenhouse",
+  "slug": "airbnb",
+  "careers_url": "https://job-boards.greenhouse.io/airbnb",
+  "category": "established_ml",
+  "why": "SF search/ranking/trust ML team; ML titles open now are senior, so track for MLE/new-grad openings",
+  "verified": true
+ },
+ {
+  "name": "Instacart",
+  "ats": "greenhouse",
+  "slug": "instacart",
+  "careers_url": "https://job-boards.greenhouse.io/instacart",
+  "category": "established_ml",
+  "why": "Ads/search/recs ML (SF, remote-friendly); ML titles currently senior, and the MLE II ads role is Canada-only",
+  "verified": true
+ },
+ {
+  "name": "Roblox",
+  "ats": "greenhouse",
+  "slug": "roblox",
+  "careers_url": "https://job-boards.greenhouse.io/roblox",
+  "category": "established_ml",
+  "why": "San Mateo recs, safety and generative ML; ML titles currently senior or PhD-level",
+  "verified": true
+ },
+ {
+  "name": "Faire",
+  "ats": "greenhouse",
+  "slug": "faire",
+  "careers_url": "https://job-boards.greenhouse.io/faire",
+  "category": "established_ml",
+  "why": "SF wholesale marketplace with search/ranking/recs ML; ML titles currently mostly senior",
+  "verified": true
+ },
+ {
+  "name": "Intercom",
+  "ats": "greenhouse",
+  "slug": "intercom",
+  "careers_url": "https://job-boards.greenhouse.io/intercom",
+  "category": "established_ml",
+  "why": "SF office for AI customer service (Fin); ML/AI titles currently mostly senior",
+  "verified": true
+ },
+ {
+  "name": "Moloco",
+  "ats": "greenhouse",
+  "slug": "moloco",
+  "careers_url": "https://job-boards.greenhouse.io/moloco",
+  "category": "established_ml",
+  "why": "Redwood City ML-driven ads platform; ML titles currently mostly senior or Applied Scientist II",
+  "verified": true
+ },
+ {
+  "name": "Plaid",
+  "ats": "ashby",
+  "slug": "plaid",
+  "careers_url": "https://jobs.ashbyhq.com/plaid",
+  "category": "established_ml",
+  "why": "SF fintech with fraud/identity ML; ML/AI titles currently senior-level",
+  "verified": true
+ },
+ {
+  "name": "Block",
+  "ats": "greenhouse",
+  "slug": "block",
+  "careers_url": "https://job-boards.greenhouse.io/block",
+  "category": "established_ml",
+  "why": "SF/remote Square and Cash App risk and ML; ML/AI titles currently senior-level",
+  "verified": true
+ },
+ {
+  "name": "Coinbase",
+  "ats": "greenhouse",
+  "slug": "coinbase",
+  "careers_url": "https://www.coinbase.com/careers/positions",
+  "category": "established_ml",
+  "why": "Remote-first crypto platform with fraud/risk ML; ML titles open, but the non-senior MLE roles are India/Brazil",
+  "verified": true
+ },
+ {
+  "name": "Waymo",
+  "ats": "greenhouse",
+  "slug": "waymo",
+  "careers_url": "https://job-boards.greenhouse.io/waymo",
+  "category": "robotics_autonomy",
+  "why": "Mountain View/SF robotaxi; 71 ML titles including 'Machine Learning Engineer, Perception' and 'MLE Perception LLM/VLM (PhD, New Grad)'",
+  "verified": true
+ },
+ {
+  "name": "Nuro",
+  "ats": "greenhouse",
+  "slug": "nuro",
+  "careers_url": "https://job-boards.greenhouse.io/nuro",
+  "category": "robotics_autonomy",
+  "why": "Mountain View autonomy; 'Software Engineer, AI Platform - New Grad' plus several ML infra/inference roles",
+  "verified": true
+ },
+ {
+  "name": "Zoox",
+  "ats": "lever",
+  "slug": "zoox",
+  "careers_url": "https://jobs.lever.co/zoox",
+  "category": "robotics_autonomy",
+  "why": "Foster City robotaxi; 'SWE, ML Platform (ML Training)' and 'MLE - Behavior Models for Road Users' open",
+  "verified": true
+ },
+ {
+  "name": "Figure AI",
+  "ats": "greenhouse",
+  "slug": "figureai",
+  "careers_url": "https://job-boards.greenhouse.io/figureai",
+  "category": "robotics_autonomy",
+  "why": "San Jose humanoids; 14 non-senior Helix AI Engineer roles (perception, robot learning, data infra)",
+  "verified": true
+ },
+ {
+  "name": "1X",
+  "ats": "ashby",
+  "slug": "1x",
+  "careers_url": "https://jobs.ashbyhq.com/1x",
+  "category": "robotics_autonomy",
+  "why": "San Carlos home humanoids; 'AI Researcher - Perception/Robot Learning' and 'AI Residency' open",
+  "verified": true
+ },
+ {
+  "name": "Physical Intelligence",
+  "ats": "ashby",
+  "slug": "physicalintelligence",
+  "careers_url": "https://jobs.ashbyhq.com/physicalintelligence",
+  "category": "robotics_autonomy",
+  "why": "SF robot foundation models; 'ML Infra Engineer, Data Systems' and 'ML Infra Engineer, Modeling'",
+  "verified": true
+ },
+ {
+  "name": "Zipline",
+  "ats": "greenhouse",
+  "slug": "flyzipline",
+  "careers_url": "https://job-boards.greenhouse.io/flyzipline",
+  "category": "robotics_autonomy",
+  "why": "South SF drone delivery; perception SWE roles and 'ML Infrastructure Engineer' open",
+  "verified": true
+ },
+ {
+  "name": "Wayve",
+  "ats": "greenhouse",
+  "slug": "wayve",
+  "careers_url": "https://job-boards.greenhouse.io/wayve",
+  "category": "robotics_autonomy",
+  "why": "Embodied-AI driving with a Sunnyvale US hub; 'Applied Scientist / Machine Learning Engineer' and 'MLE, App SW' (board mirrored on Ashby)",
+  "verified": true
+ },
+ {
+  "name": "Waabi",
+  "ats": "lever",
+  "slug": "waabi",
+  "careers_url": "https://jobs.lever.co/waabi",
+  "category": "robotics_autonomy",
+  "why": "Generative-AI autonomous trucking; Research Engineer/Applied Scientist roles with SF or remote-US options",
+  "verified": true
+ },
+ {
+  "name": "Torc Robotics",
+  "ats": "greenhouse",
+  "slug": "torcrobotics",
+  "careers_url": "https://job-boards.greenhouse.io/torcrobotics",
+  "category": "robotics_autonomy",
+  "why": "Daimler Truck autonomy; 'ML Engineer, I - MLOps Framework' and 'ML Engineer, II - Perception' Remote-US",
+  "verified": true
+ },
+ {
+  "name": "Bedrock Robotics",
+  "ats": "ashby",
+  "slug": "bedrock-robotics",
+  "careers_url": "https://jobs.ashbyhq.com/bedrock-robotics",
+  "category": "robotics_autonomy",
+  "why": "SF autonomous construction; MLE roles in Perception, Evaluation and Imitation/RL",
+  "verified": true
+ },
+ {
+  "name": "The Bot Company",
+  "ats": "ashby",
+  "slug": "thebotcompany",
+  "careers_url": "https://jobs.ashbyhq.com/thebotcompany",
+  "category": "robotics_autonomy",
+  "why": "SF home robots; ML roles in world models, multimodal foundation models and data infra",
+  "verified": true
+ },
+ {
+  "name": "Genesis AI",
+  "ats": "ashby",
+  "slug": "genesis",
+  "careers_url": "https://jobs.ashbyhq.com/genesis",
+  "category": "robotics_autonomy",
+  "why": "Bay Area physical-AI startup; foundation-model, robot-learning and training-infra roles",
+  "verified": true
+ },
+ {
+  "name": "Helm.ai",
+  "ats": "ashby",
+  "slug": "helm-ai",
+  "careers_url": "https://jobs.ashbyhq.com/helm-ai",
+  "category": "robotics_autonomy",
+  "why": "Bay Area/remote-US AV perception AI; 'Machine Learning Engineer' and 'Research Engineer' open",
+  "verified": true
+ },
+ {
+  "name": "May Mobility",
+  "ats": "greenhouse",
+  "slug": "maymobility",
+  "careers_url": "https://job-boards.greenhouse.io/maymobility",
+  "category": "robotics_autonomy",
+  "why": "AV company; 'Machine Learning Engineer II' roles USA-Remote (training infra, driving evaluation)",
+  "verified": true
+ },
+ {
+  "name": "Motional",
+  "ats": "greenhouse",
+  "slug": "motional",
+  "careers_url": "https://job-boards.greenhouse.io/motional",
+  "category": "robotics_autonomy",
+  "why": "Hyundai-backed robotaxi; 'Perception Engineer' (remote US) among 14 ML titles",
+  "verified": true
+ },
+ {
+  "name": "Dyna Robotics",
+  "ats": "ashby",
+  "slug": "dyna-robotics",
+  "careers_url": "https://jobs.ashbyhq.com/dyna-robotics",
+  "category": "robotics_autonomy",
+  "why": "Bay Area robot foundation models; 'Research Engineer' open",
+  "verified": true
+ },
+ {
+  "name": "Wing",
+  "ats": "greenhouse",
+  "slug": "wing",
+  "careers_url": "https://job-boards.greenhouse.io/wing",
+  "category": "robotics_autonomy",
+  "why": "Palo Alto drone delivery (Alphabet); 'Machine Learning Engineer, Perception' open",
+  "verified": true
+ },
+ {
+  "name": "Nimble Robotics",
+  "ats": "greenhouse",
+  "slug": "nimblerobotics",
+  "careers_url": "https://job-boards.greenhouse.io/nimblerobotics",
+  "category": "robotics_autonomy",
+  "why": "SF warehouse robotics; 'AI Robotics Research Engineer' (SF)",
+  "verified": true
+ },
+ {
+  "name": "Diligent Robotics",
+  "ats": "greenhouse",
+  "slug": "diligentrobotics",
+  "careers_url": "https://job-boards.greenhouse.io/diligentrobotics",
+  "category": "robotics_autonomy",
+  "why": "Hospital service robots; 'ML Engineer, Manipulation' open anywhere in the US",
+  "verified": true
+ },
+ {
+  "name": "Stack AV",
+  "ats": "greenhouse",
+  "slug": "stackav",
+  "careers_url": "https://job-boards.greenhouse.io/stackav",
+  "category": "robotics_autonomy",
+  "why": "SoftBank-backed autonomous trucking; 'Full-Stack Software Engineer, Machine Learning Platform' (Pittsburgh or remote)",
+  "verified": true
+ },
+ {
+  "name": "Aeva",
+  "ats": "lever",
+  "slug": "aeva",
+  "careers_url": "https://jobs.lever.co/aeva",
+  "category": "robotics_autonomy",
+  "why": "Mountain View FMCW lidar; 'LiDAR Characterization & Perception Data Engineer' on-site",
+  "verified": true
+ },
+ {
+  "name": "Toyota Research Institute",
+  "ats": "lever",
+  "slug": "tri",
+  "careers_url": "https://jobs.lever.co/tri",
+  "category": "robotics_autonomy",
+  "why": "Los Altos robotics/AI research; 'AI Resident' and ML research roles",
+  "verified": true
+ },
+ {
+  "name": "Collaborative Robotics",
+  "ats": "ashby",
+  "slug": "cobot",
+  "careers_url": "https://jobs.ashbyhq.com/cobot",
+  "category": "robotics_autonomy",
+  "why": "Santa Clara cobots; 'AI Research Engineer' (Seattle)",
+  "verified": true
+ },
+ {
+  "name": "Dexterity",
+  "ats": "lever",
+  "slug": "dexterity",
+  "careers_url": "https://jobs.lever.co/dexterity",
+  "category": "robotics_autonomy",
+  "why": "Redwood City warehouse-robotics AI; ML titles currently senior-level",
+  "verified": true
+ },
+ {
+  "name": "Agility Robotics",
+  "ats": "greenhouse",
+  "slug": "agilityrobotics",
+  "careers_url": "https://job-boards.greenhouse.io/agilityrobotics",
+  "category": "robotics_autonomy",
+  "why": "Humanoid robots; 7 ML/AI titles, mostly senior",
+  "verified": true
+ },
+ {
+  "name": "Matic",
+  "ats": "ashby",
+  "slug": "maticrobots",
+  "careers_url": "https://jobs.ashbyhq.com/maticrobots",
+  "category": "robotics_autonomy",
+  "why": "Menlo Park home robotics (vision-based autonomy); 1 ML title open",
+  "verified": true
+ },
+ {
+  "name": "Aurora Innovation",
+  "ats": "ashby",
+  "slug": "aurora-operations-inc",
+  "careers_url": "https://aurora.tech/careers",
+  "category": "robotics_autonomy",
+  "why": "Driverless trucking with a large perception/ML org (Mountain View, Pittsburgh); custom careers portal, no public board on the four ATS APIs",
+  "verified": true
+ },
+ {
+  "name": "Butterfly Network",
+  "ats": "greenhouse",
+  "slug": "butterflynetwork",
+  "careers_url": "https://boards-api.greenhouse.io/v1/boards/butterflynetwork/jobs",
+  "category": "healthtech_imaging",
+  "why": "Handheld-ultrasound imaging AI; small board (25) and a direct medical-imaging match.",
+  "verified": true
+ },
+ {
+  "name": "Iterative Health",
+  "ats": "greenhouse",
+  "slug": "iterativehealth",
+  "careers_url": "https://boards-api.greenhouse.io/v1/boards/iterativehealth/jobs",
+  "category": "healthtech_imaging",
+  "why": "Endoscopy computer-vision company with a non-senior Applied AI Engineer req open.",
+  "verified": true
+ },
+ {
+  "name": "Komodo Health",
+  "ats": "greenhouse",
+  "slug": "komodohealth",
+  "careers_url": "https://boards-api.greenhouse.io/v1/boards/komodohealth/jobs",
+  "category": "healthtech_imaging",
+  "why": "Healthcare data/ML company headquartered in SF; 29 postings.",
+  "verified": true
+ },
+ {
+  "name": "Oscar Health",
+  "ats": "greenhouse",
+  "slug": "oscar",
+  "careers_url": "https://boards-api.greenhouse.io/v1/boards/oscar/jobs",
+  "category": "healthtech_imaging",
+  "why": "286 postings and an explicit 'Data Scientist I' level-I req - one of the few named level-I DS roles found anywhere.",
+  "verified": true
+ },
+ {
+  "name": "Zocdoc",
+  "ats": "greenhouse",
+  "slug": "zocdoc",
+  "careers_url": "https://boards-api.greenhouse.io/v1/boards/zocdoc/jobs",
+  "category": "healthtech_imaging",
+  "why": "55 postings; health-marketplace ML/search relevance work.",
+  "verified": true
+ },
+ {
+  "name": "Isomorphic Labs",
+  "ats": "greenhouse",
+  "slug": "isomorphiclabs",
+  "careers_url": "https://boards-api.greenhouse.io/v1/boards/isomorphiclabs/jobs",
+  "category": "healthtech_imaging",
+  "why": "AI drug discovery (Alphabet); 28 postings, though most roles are UK-based - check location before applying.",
+  "verified": true
+ },
+ {
+  "name": "Ginkgo Bioworks",
+  "ats": "greenhouse",
+  "slug": "ginkgobioworks",
+  "careers_url": "https://boards-api.greenhouse.io/v1/boards/ginkgobioworks/jobs",
+  "category": "healthtech_imaging",
+  "why": "Has a California-based AI/ML scientist req; 19 postings.",
+  "verified": true
+ },
+ {
+  "name": "LinkedIn",
+  "ats": "greenhouse",
+  "slug": "linkedin",
+  "careers_url": "https://boards-api.greenhouse.io/v1/boards/linkedin/jobs",
+  "category": "established_ml",
+  "why": "Notable discovery: LinkedIn runs a public Greenhouse board (53 postings) despite being a Microsoft subsidiary, so it is sweepable without scraping their portal.",
+  "verified": true
+ },
+ {
+  "name": "Nebius",
+  "ats": "greenhouse",
+  "slug": "nebius",
+  "careers_url": "https://boards-api.greenhouse.io/v1/boards/nebius/jobs",
+  "category": "applied_ai",
+  "why": "389 postings including a US-remote Forward Deployed Engineer for Physical AI.",
+  "verified": true
+ },
+ {
+  "name": "Synthesia",
+  "ats": "ashby",
+  "slug": "synthesia",
+  "careers_url": "https://api.ashbyhq.com/posting-api/job-board/synthesia",
+  "category": "applied_ai",
+  "why": "52 postings with base-level ML engineer reqs; verify remote region includes the US.",
+  "verified": true
+ },
+ {
+  "name": "WeRide",
+  "ats": "lever",
+  "slug": "weride",
+  "careers_url": "https://api.lever.co/v0/postings/weride?mode=json",
+  "category": "robotics_autonomy",
+  "why": "Carries an explicit 'New Grads 2027 - Software Engineer - Perception/Computer Vision' req in San Jose plus an open-now perception ML role.",
+  "verified": true
+ },
+ {
+  "name": "Osaro",
+  "ats": "lever",
+  "slug": "osaro",
+  "careers_url": "https://api.lever.co/v0/postings/osaro?mode=json",
+  "category": "robotics_autonomy",
+  "why": "11 postings; SF robot-perception company, small board worth sweeping whole.",
+  "verified": true
+ },
+ {
+  "name": "Ambi Robotics",
+  "ats": "lever",
+  "slug": "ambirobotics",
+  "careers_url": "https://api.lever.co/v0/postings/ambirobotics?mode=json",
+  "category": "robotics_autonomy",
+  "why": "6 postings; Berkeley-based robotics/CV company in the target geography.",
+  "verified": true
+ },
+ {
+  "name": "Blue River Technology",
+  "ats": "greenhouse",
+  "slug": "bluerivertech",
+  "careers_url": "https://boards-api.greenhouse.io/v1/boards/bluerivertech/jobs",
+  "category": "robotics_autonomy",
+  "why": "Sunnyvale agricultural-CV company (John Deere) with a US-remote ML Engineer req at a 2-year minimum.",
+  "verified": true
+ },
+ {
+  "name": "Apptronik",
+  "ats": "greenhouse",
+  "slug": "apptronik",
+  "careers_url": "https://boards-api.greenhouse.io/v1/boards/apptronik/jobs",
+  "category": "robotics_autonomy",
+  "why": "81 postings; humanoid robotics, useful for the Mechatronics-plus-ML profile.",
+  "verified": true
+ },
+ {
+  "name": "Bosch",
+  "ats": "smartrecruiters",
+  "slug": "BoschGroup",
+  "careers_url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings",
+  "category": "established_ml",
+  "why": "4,805 postings on a public SmartRecruiters API; the Sunnyvale and Pittsburgh AI research centres post regularly and had no citizenship/ITAR gate.",
+  "verified": true
+ },
+ {
+  "name": "Intuitive Surgical",
+  "ats": "smartrecruiters",
+  "slug": "Intuitive",
+  "careers_url": "https://api.smartrecruiters.com/v1/companies/Intuitive/postings",
+  "category": "healthtech_imaging",
+  "why": "741 postings on a public SmartRecruiters API (note: the obvious 'intuitive.wd1.myworkdayjobs.com' tenant is a different, unrelated aerospace firm). Sunnyvale surgical robotics - the best medtech-plus-robotics match in the Bay Area.",
+  "verified": true
+ },
+ {
+  "name": "Labelbox",
+  "ats": "greenhouse",
+  "slug": "labelbox",
+  "careers_url": "https://job-boards.greenhouse.io/labelbox",
+  "category": "applied_ai",
+  "why": "SF Bay Area data/RL-environments company in the same segment as Scale and Surge but not yet covered. Open at non-senior level: Forward Deployed Engineer RL Environments, Forward Deployed Research Scientist, Member of Technical Staff. Small board (10 reqs total) so the ML density is unusually high.",
+  "verified": true
+ },
+ {
+  "name": "Vooma",
+  "ats": "ashby",
+  "slug": "vooma",
+  "careers_url": "https://jobs.ashbyhq.com/vooma",
+  "category": "other",
+  "why": "Fills the logistics-AI vertical gap. SF office, 11-req board, with AI Engineer and Forward Deployed Engineer both open and untitled. with shipped FastAPI/Docker/CI projects reads as a full hire rather than a junior, and the SF office start is immediate rather than cohort-gated.",
+  "verified": true
+ },
+ {
+  "name": "NVIDIA",
+  "ats": "workday",
+  "slug": "nvidia.wd5/NVIDIAExternalCareerSite",
+  "careers_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite",
+  "category": "established_tech",
+  "why": "The largest source of Santa Clara ML roles, and it posts New College Grad ML and applied-AI openings every year.",
+  "verified": true
+ },
+ {
+  "name": "Adobe",
+  "ats": "workday",
+  "slug": "adobe.wd5/external_experienced",
+  "careers_url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced",
+  "category": "established_tech",
+  "why": "Many Machine Learning Engineer roles in San Jose and SF, plus a live 2027 University Graduate MLE posting.",
+  "verified": true
+ },
+ {
+  "name": "Salesforce",
+  "ats": "workday",
+  "slug": "salesforce.wd12/External_Career_Site",
+  "careers_url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site",
+  "category": "established_tech",
+  "why": "SF-headquartered AI employer (Agentforce, Slack AI) that also runs a Futureforce new-grad pipeline.",
+  "verified": true
+ },
+ {
+  "name": "Cisco",
+  "ats": "workday",
+  "slug": "cisco.wd5/Cisco_Careers",
+  "careers_url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers",
+  "category": "established_tech",
+  "why": "A steady flow of AI/ML engineering roles in San Jose and SF (CX AI, AI software platform, Splunk).",
+  "verified": true
+ },
+ {
+  "name": "Visa",
+  "ats": "workday",
+  "slug": "visa.wd5/Visa",
+  "careers_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa",
+  "category": "established_tech",
+  "why": "Foster City/SF HQ with GenAI, agentic-AI and data-science roles.",
+  "verified": true
+ },
+ {
+  "name": "Visa (Early Careers)",
+  "ats": "workday",
+  "slug": "visa.wd5/Visa_Early_Careers",
+  "careers_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa_Early_Careers",
+  "category": "established_tech",
+  "why": "Visa's separate new-grad and early-career site; Bay Area new-grad programs appear here first.",
+  "verified": true
+ },
+ {
+  "name": "PayPal",
+  "ats": "workday",
+  "slug": "paypal.wd1/jobs",
+  "careers_url": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs",
+  "category": "established_tech",
+  "why": "San Jose HQ with ML engineering and entry-level data-science roles (e.g. 'Data Scientist 1').",
+  "verified": true
+ },
+ {
+  "name": "Intel",
+  "ats": "workday",
+  "slug": "intel.wd1/External",
+  "careers_url": "https://intel.wd1.myworkdayjobs.com/en-US/External",
+  "category": "established_tech",
+  "why": "Santa Clara HQ that occasionally posts AI software roles; low yield, since most ML reqs are overseas.",
+  "verified": true
+ },
+ {
+  "name": "Workday",
+  "ats": "workday",
+  "slug": "workday.wd5/Workday",
+  "careers_url": "https://workday.wd5.myworkdayjobs.com/en-US/Workday",
+  "category": "established_tech",
+  "why": "Pleasanton HQ that is hiring non-senior Machine Learning Engineers right now.",
+  "verified": true
+ },
+ {
+  "name": "Autodesk",
+  "ats": "workday",
+  "slug": "autodesk.wd1/Ext",
+  "careers_url": "https://autodesk.wd1.myworkdayjobs.com/en-US/Ext",
+  "category": "established_tech",
+  "why": "SF office with an AI Research / AI-ML platform group; some roles are remote in California.",
+  "verified": true
+ },
+ {
+  "name": "Walmart Global Tech",
+  "ats": "workday",
+  "slug": "walmart.wd504/WalmartExternal",
+  "careers_url": "https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal",
+  "category": "established_tech",
+  "why": "Sunnyvale is one of Walmart's biggest ML hubs, with hundreds of ML/data-science reqs.",
+  "verified": true
+ },
+ {
+  "name": "Applied Materials",
+  "ats": "workday",
+  "slug": "amat.wd1/External",
+  "careers_url": "https://amat.wd1.myworkdayjobs.com/en-US/External",
+  "category": "established_tech",
+  "why": "Santa Clara HQ with applied ML, generative-AI and computer-vision roles.",
+  "verified": true
+ },
+ {
+  "name": "KLA",
+  "ats": "workday",
+  "slug": "kla.wd1/Search",
+  "careers_url": "https://kla.wd1.myworkdayjobs.com/en-US/Search",
+  "category": "established_tech",
+  "why": "Milpitas computer-vision and deep-learning algorithm roles at non-senior levels.",
+  "verified": true
+ },
+ {
+  "name": "Samsung Semiconductor",
+  "ats": "workday",
+  "slug": "sec.wd3/Samsung_Careers",
+  "careers_url": "https://sec.wd3.myworkdayjobs.com/en-US/Samsung_Careers",
+  "category": "established_tech",
+  "why": "Mountain View and San Jose ML software roles at mid and junior levels.",
+  "verified": true
+ },
+ {
+  "name": "Hewlett Packard Enterprise",
+  "ats": "workday",
+  "slug": "hpe.wd5/Jobsathpe",
+  "careers_url": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe",
+  "category": "established_tech",
+  "why": "Has live San Jose AI/ML new-grad openings, plus HPE Labs research roles in Milpitas.",
+  "verified": true
+ },
+ {
+  "name": "HP Inc.",
+  "ats": "workday",
+  "slug": "hp.wd5/ExternalCareerSite",
+  "careers_url": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite",
+  "category": "established_tech",
+  "why": "Its HP IQ AI group in SF hires AI software engineers.",
+  "verified": true
+ },
+ {
+  "name": "Marvell Technology",
+  "ats": "workday",
+  "slug": "marvell.wd1/MarvellCareers",
+  "careers_url": "https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers",
+  "category": "established_tech",
+  "why": "Santa Clara HQ; low ML volume, but it occasionally posts AI roles there.",
+  "verified": true
+ },
+ {
+  "name": "Cadence Design Systems",
+  "ats": "workday",
+  "slug": "cadence.wd1/External_Careers",
+  "careers_url": "https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers",
+  "category": "established_tech",
+  "why": "San Jose applied-ML roles at non-senior levels (AI for chip verification).",
+  "verified": true
+ },
+ {
+  "name": "Cadence Design Systems (University / NCG)",
+  "ats": "workday",
+  "slug": "cadence.wd1/University_Talent_NCG",
+  "careers_url": "https://cadence.wd1.myworkdayjobs.com/en-US/University_Talent_NCG",
+  "category": "established_tech",
+  "why": "Cadence's dedicated new-college-grad site;",
+  "verified": true
+ },
+ {
+  "name": "eBay",
+  "ats": "workday",
+  "slug": "ebay.wd5/apply",
+  "careers_url": "https://ebay.wd5.myworkdayjobs.com/en-US/apply",
+  "category": "established_tech",
+  "why": "San Jose HQ with applied-ML and data-science teams (search, ads, agentic shopping).",
+  "verified": true
+ },
+ {
+  "name": "General Motors (AV / Sunnyvale)",
+  "ats": "workday",
+  "slug": "generalmotors.wd5/Careers_GM",
+  "careers_url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM",
+  "category": "robotics_av",
+  "why": "GM's Sunnyvale/SF autonomy org (ex-Cruise) is posting early-career ML-systems and AV software roles right now.",
+  "verified": true
+ },
+ {
+  "name": "Build AI",
+  "ats": "ashby",
+  "slug": "build-ai",
+  "careers_url": "https://jobs.ashbyhq.com/build-ai",
+  "category": "ai_native",
+  "why": "SF AI startup hiring ML inference and ML-data engineers.",
+  "verified": true
+ },
+ {
+  "name": "Lightning AI",
+  "ats": "greenhouse",
+  "slug": "lightningai",
+  "careers_url": "https://job-boards.greenhouse.io/lightningai",
+  "category": "ai_native",
+  "why": "The PyTorch Lightning company, with research-engineer roles open to SF or remote.",
+  "verified": true
+ },
+ {
+  "name": "Watney Robotics",
+  "ats": "ashby",
+  "slug": "watney",
+  "careers_url": "https://jobs.ashbyhq.com/watney",
+  "category": "robotics_av",
+  "why": "SF robotics startup with non-senior Machine Learning Engineer and Perception roles.",
+  "verified": true
+ },
+ {
+  "name": "MaintainX",
+  "ats": "ashby",
+  "slug": "maintainx",
+  "careers_url": "https://jobs.ashbyhq.com/maintainx",
+  "category": "other",
+  "why": "SF-headquartered industrial SaaS building applied-AI features; has an Applied AI Engineer role open in SF or remote.",
+  "verified": true
+ },
+ {
+  "name": "Zensors",
+  "ats": "ashby",
+  "slug": "zensors",
+  "careers_url": "https://jobs.ashbyhq.com/zensors",
+  "category": "ai_native",
+  "why": "Small SF spatial-AI startup with ML infrastructure and MLOps openings.",
+  "verified": true
+ },
+ {
+  "name": "Applied Intuition",
+  "ats": "ashby",
+  "slug": "applied",
+  "careers_url": "https://jobs.ashbyhq.com/applied",
+  "category": "robotics_av",
+  "why": "ML/AI roles in the Bay Area or US-remote.",
+  "verified": true
+ },
+ {
+  "name": "Netic",
+  "ats": "ashby",
+  "slug": "netic",
+  "careers_url": "https://jobs.ashbyhq.com/netic",
+  "category": "ai_native",
+  "why": "SF AI-agent startup with three 2026-2027 new-grad engineering openings.",
+  "verified": true
+ },
+ {
+  "name": "Preference Model",
+  "ats": "ashby",
+  "slug": "Preference-Model",
+  "careers_url": "https://jobs.ashbyhq.com/Preference-Model",
+  "category": "ai_native",
+  "why": "SF post-training/ML lab with an explicit new-graduate ML role.",
+  "verified": true
+ },
+ {
+  "name": "Retell AI",
+  "ats": "ashby",
+  "slug": "retell-ai",
+  "careers_url": "https://jobs.ashbyhq.com/retell-ai",
+  "category": "ai_native",
+  "why": "Bay Area voice-AI agent startup with new-grad SWE and FDE openings.",
+  "verified": true
+ },
+ {
+  "name": "Zip",
+  "ats": "ashby",
+  "slug": "zip",
+  "careers_url": "https://jobs.ashbyhq.com/zip",
+  "category": "other",
+  "why": "SF procurement platform with a 2027-start new-grad SWE role and AI forward-deployed work.",
+  "verified": true
+ },
+ {
+  "name": "Pylon",
+  "ats": "ashby",
+  "slug": "pylon-labs",
+  "careers_url": "https://jobs.ashbyhq.com/pylon-labs",
+  "category": "ai_native",
+  "why": "SF AI support-platform startup hiring new-grad and AI software engineers.",
+  "verified": true
+ },
+ {
+  "name": "Nooks",
+  "ats": "ashby",
+  "slug": "nooks",
+  "careers_url": "https://jobs.ashbyhq.com/nooks",
+  "category": "ai_native",
+  "why": "SF AI sales-agent startup with new-grad and agent-engineering openings.",
+  "verified": true
+ },
+ {
+  "name": "Julius AI",
+  "ats": "ashby",
+  "slug": "julius",
+  "careers_url": "https://jobs.ashbyhq.com/julius",
+  "category": "ai_native",
+  "why": "SF AI data-analysis startup with a new-grad product engineering role.",
+  "verified": true
+ },
+ {
+  "name": "Lightfield",
+  "ats": "ashby",
+  "slug": "Lightfield",
+  "careers_url": "https://jobs.ashbyhq.com/Lightfield",
+  "category": "ai_native",
+  "why": "SF AI-CRM startup with an early-career applied-AI engineer role.",
+  "verified": true
+ },
+ {
+  "name": "NewsBreak",
+  "ats": "greenhouse",
+  "slug": "newsbreak",
+  "careers_url": "https://job-boards.greenhouse.io/newsbreak",
+  "category": "established_tech",
+  "why": "Mountain View recommender/ads-ML shop with several new-grad AI and ML-infra roles open.",
+  "verified": true
+ },
+ {
+  "name": "Crusoe",
+  "ats": "ashby",
+  "slug": "crusoe",
+  "careers_url": "https://jobs.ashbyhq.com/crusoe",
+  "category": "ai_native",
+  "why": "AI-cloud infrastructure company with a large SF/Sunnyvale engineering org, including entry-level SWE roles.",
+  "verified": true
+ },
+ {
+  "name": "Superhuman (Grammarly)",
+  "ats": "ashby",
+  "slug": "Superhuman%20Platform%20Inc",
+  "careers_url": "https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc",
+  "category": "established_tech",
+  "why": "Grammarly/Superhuman's SF hub is hiring early-career SWEs and MLEs.",
+  "verified": true
+ },
+ {
+  "name": "Koah Labs",
+  "ats": "ashby",
+  "slug": "koahlabs",
+  "careers_url": "https://jobs.ashbyhq.com/koahlabs",
+  "category": "ai_native",
+  "why": "SF AI-ads startup with early-career SWE and applied-scientist roles.",
+  "verified": true
+ },
+ {
+  "name": "Strada",
+  "ats": "ashby",
+  "slug": "stradahq",
+  "careers_url": "https://jobs.ashbyhq.com/stradahq",
+  "category": "other",
+  "why": "Small SF startup with a new-grad SWE opening.",
+  "verified": true
+ },
+ {
+  "name": "LiteLLM",
+  "ats": "ashby",
+  "slug": "litellm",
+  "careers_url": "https://jobs.ashbyhq.com/litellm",
+  "category": "ai_native",
+  "why": "SF LLM-gateway startup with a US new-grad forward-deployed role and AI engineer roles.",
+  "verified": true
+ },
+ {
+  "name": "Sigma Computing",
+  "ats": "greenhouse",
+  "slug": "sigmacomputing",
+  "careers_url": "https://job-boards.greenhouse.io/sigmacomputing",
+  "category": "established_tech",
+  "why": "SF analytics company that runs a formal new-grad SWE program.",
+  "verified": true
+ },
+ {
+  "name": "SingleStore",
+  "ats": "greenhouse",
+  "slug": "singlestore",
+  "careers_url": "https://job-boards.greenhouse.io/singlestore",
+  "category": "established_tech",
+  "why": "Database company (SF office) posting several 2027 new-grad SWE roles in the US.",
+  "verified": true
+ },
+ {
+  "name": "Faros AI",
+  "ats": "ashby",
+  "slug": "faros-ai",
+  "careers_url": "https://jobs.ashbyhq.com/faros-ai",
+  "category": "ai_native",
+  "why": "San Mateo AI engineering-analytics startup with a remote new-grad SWE role.",
+  "verified": true
+ },
+ {
+  "name": "Firetiger",
+  "ats": "ashby",
+  "slug": "firetiger",
+  "careers_url": "https://jobs.ashbyhq.com/firetiger",
+  "category": "ai_native",
+  "why": "SF AI-observability startup with a new-grad product engineer role.",
+  "verified": true
+ },
+ {
+  "name": "Color Health",
+  "ats": "ashby",
+  "slug": "color-health",
+  "careers_url": "https://jobs.ashbyhq.com/color-health",
+  "category": "healthtech_imaging",
+  "why": "South SF healthtech with a recurring new-grad SWE program.",
+  "verified": true
+ },
+ {
+  "name": "Solace Health",
+  "ats": "ashby",
+  "slug": "solace",
+  "careers_url": "https://jobs.ashbyhq.com/solace",
+  "category": "healthtech_imaging",
+  "why": "Redwood City healthtech hiring a College Grad 2027 associate data scientist and engineers.",
+  "verified": true
+ },
+ {
+  "name": "Hipp Health",
+  "ats": "ashby",
+  "slug": "hipp",
+  "careers_url": "https://jobs.ashbyhq.com/hipp",
+  "category": "healthtech_imaging",
+  "why": "Healthtech startup with a US-remote new-grad SWE role.",
+  "verified": true
+ },
+ {
+  "name": "The Voleon Group",
+  "ats": "ashby",
+  "slug": "voleon",
+  "careers_url": "https://jobs.ashbyhq.com/voleon",
+  "category": "other",
+  "why": "Berkeley ML-driven quant firm with a 2027 university-hire SWE role.",
+  "verified": true
+ },
+ {
+  "name": "Uare.ai",
+  "ats": "greenhouse",
+  "slug": "uareai",
+  "careers_url": "https://job-boards.greenhouse.io/uareai",
+  "category": "ai_native",
+  "why": "Los Altos AI startup with early-career SWE and AI/video engineer roles.",
+  "verified": true
+ },
+ {
+  "name": "Robinhood",
+  "ats": "greenhouse",
+  "slug": "robinhood",
+  "careers_url": "https://job-boards.greenhouse.io/robinhood",
+  "category": "established_tech",
+  "why": "Menlo Park ML/AI-platform employer whose recurring new-grad SWE program is due to post.",
+  "verified": true
+ },
+ {
+  "name": "Micron",
+  "ats": "workday",
+  "slug": "micron.wd1/External",
+  "careers_url": "https://micron.wd1.myworkdayjobs.com/en-US/External",
+  "category": "established_tech",
+  "why": "Has a live New College Grad AI research-engineer role in San Jose; most other new-grad reqs are in Boise.",
+  "verified": true
+ },
+ {
+  "name": "Quora",
+  "ats": "ashby",
+  "slug": "quora",
+  "careers_url": "https://jobs.ashbyhq.com/quora",
+  "category": "established_tech",
+  "why": "Mountain View company that hires ML/DS remotely in the US and has run an MLE New Grad (Remote) role in past cycles.",
+  "verified": true
+ },
+ {
+  "name": "Charta Health",
+  "ats": "ashby",
+  "slug": "chartahealth",
+  "careers_url": "https://jobs.ashbyhq.com/chartahealth",
+  "category": "healthtech_imaging",
+  "why": "SF clinical-AI (chart review) startup hiring forward-deployed AI engineers; has posted new-grad SWE roles before.",
+  "verified": true
+ },
+ {
+  "name": "Candid Health",
+  "ats": "ashby",
+  "slug": "candidhealth",
+  "careers_url": "https://jobs.ashbyhq.com/candidhealth",
+  "category": "healthtech_imaging",
+  "why": "SF healthtech (revenue-cycle automation) that has posted new-grad SWE roles in past cycles.",
+  "verified": true
+ },
+ {
+  "name": "Discord",
+  "ats": "greenhouse",
+  "slug": "discord",
+  "careers_url": "https://job-boards.greenhouse.io/discord",
+  "category": "established_tech",
+  "why": "SF company with ML Safety and causal-inference data-science teams; most roles are Bay Area or US-remote.",
+  "verified": true
+ },
+ {
+  "name": "Chime",
+  "ats": "greenhouse",
+  "slug": "chime",
+  "careers_url": "https://job-boards.greenhouse.io/chime",
+  "category": "established_tech",
+  "why": "SF fintech hiring AI-enablement engineers and data scientists at non-senior levels.",
+  "verified": true
+ },
+ {
+  "name": "Asana",
+  "ats": "greenhouse",
+  "slug": "asana",
+  "careers_url": "https://job-boards.greenhouse.io/asana",
+  "category": "established_tech",
+  "why": "SF HQ building AI Teammates, with non-senior AI product-engineering roles.",
+  "verified": true
+ },
+ {
+  "name": "Box",
+  "ats": "greenhouse",
+  "slug": "boxinc",
+  "careers_url": "https://job-boards.greenhouse.io/boxinc",
+  "category": "established_tech",
+  "why": "Redwood City HQ investing in Box AI, with AI-experience engineering roles.",
+  "verified": true
+ },
+ {
+  "name": "Rubrik",
+  "ats": "greenhouse",
+  "slug": "rubrik",
+  "careers_url": "https://job-boards.greenhouse.io/rubrik",
+  "category": "established_tech",
+  "why": "Palo Alto HQ with an ML engineering team (security/data AI).",
+  "verified": true
+ },
+ {
+  "name": "Snorkel AI",
+  "ats": "greenhouse",
+  "slug": "snorkelai",
+  "careers_url": "https://job-boards.greenhouse.io/snorkelai",
+  "category": "ai_native",
+  "why": "Redwood City/SF AI data-development company with applied AI engineer roles (skip its federal/TS-clearance ones).",
+  "verified": true
+ },
+ {
+  "name": "Lambda",
+  "ats": "ashby",
+  "slug": "lambda",
+  "careers_url": "https://jobs.ashbyhq.com/lambda",
+  "category": "ai_native",
+  "why": "GPU cloud with SF and San Jose offices; it hires across AI infrastructure and ML engineering.",
+  "verified": true
+ },
+ {
+  "name": "SambaNova Systems",
+  "ats": "greenhouse",
+  "slug": "sambanovasystems",
+  "careers_url": "https://job-boards.greenhouse.io/sambanovasystems",
+  "category": "ai_native",
+  "why": "Palo Alto/San Jose AI chip and inference company with ML performance and infrastructure roles.",
+  "verified": true
+ },
+ {
+  "name": "Cresta",
+  "ats": "greenhouse",
+  "slug": "cresta",
+  "careers_url": "https://job-boards.greenhouse.io/cresta",
+  "category": "ai_native",
+  "why": "SF contact-center AI company where many AI-agent roles are US-remote.",
+  "verified": true
+ },
+ {
+  "name": "fal",
+  "ats": "ashby",
+  "slug": "fal-ai",
+  "careers_url": "https://jobs.ashbyhq.com/fal-ai",
+  "category": "ai_native",
+  "why": "SF generative-media inference platform with ML engineering roles.",
+  "verified": true
+ },
+ {
+  "name": "Zoom",
+  "ats": "workday",
+  "slug": "zoom.wd5/Zoom",
+  "careers_url": "https://zoom.wd5.myworkdayjobs.com/en-US/Zoom",
+  "category": "established_tech",
+  "why": "San Jose HQ hiring non-senior AI and video-AI software engineers.",
+  "verified": true
+ },
+ {
+  "name": "Vapi",
+  "ats": "ashby",
+  "slug": "vapi",
+  "careers_url": "https://jobs.ashbyhq.com/vapi",
+  "category": "ai_native",
+  "why": "SF voice-AI agent platform with agentic engineering roles.",
+  "verified": true
+ },
+ {
+  "name": "Liquid AI",
+  "ats": "ashby",
+  "slug": "liquid-ai",
+  "careers_url": "https://jobs.ashbyhq.com/liquid-ai",
+  "category": "ai_native",
+  "why": "Foundation-model lab with an SF office and ML research-engineer roles.",
+  "verified": true
+ },
+ {
+  "name": "Typeface",
+  "ats": "greenhouse",
+  "slug": "typeface",
+  "careers_url": "https://job-boards.greenhouse.io/typeface",
+  "category": "ai_native",
+  "why": "Palo Alto generative-AI content startup with ML engineering roles.",
+  "verified": true
+ },
+ {
+  "name": "Tenstorrent",
+  "ats": "greenhouse",
+  "slug": "tenstorrent",
+  "careers_url": "https://job-boards.greenhouse.io/tenstorrent",
+  "category": "ai_native",
+  "why": "AI-accelerator company with a large Santa Clara engineering site and many AI/ML-titled roles.",
+  "verified": true
+ },
+ {
+  "name": "d-Matrix",
+  "ats": "ashby",
+  "slug": "d-matrix",
+  "careers_url": "https://jobs.ashbyhq.com/d-matrix",
+  "category": "ai_native",
+  "why": "Santa Clara AI-inference chip startup with ML software and systems roles.",
+  "verified": true
+ },
+ {
+  "name": "Snap",
+  "ats": "workday",
+  "slug": "snapchat.wd1/snap",
+  "careers_url": "https://snapchat.wd1.myworkdayjobs.com/en-US/snap",
+  "category": "established_tech",
+  "why": "ML-heavy company with Palo Alto/Bay Area ML infrastructure roles at L3-L4.",
+  "verified": true
+ },
+ {
+  "name": "Zscaler",
+  "ats": "greenhouse",
+  "slug": "zscaler",
+  "careers_url": "https://job-boards.greenhouse.io/zscaler",
+  "category": "established_tech",
+  "why": "San Jose HQ with growing AI and security-ML hiring, including US-remote roles.",
+  "verified": true
+ },
+ {
+  "name": "Cloudflare",
+  "ats": "greenhouse",
+  "slug": "cloudflare",
+  "careers_url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs",
+  "category": "established_tech",
+  "why": "SF office; ML/AI roles; locations are listed as Hybrid with cities in offices",
+  "verified": true
+ }
+]
