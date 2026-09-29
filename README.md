@@ -30,7 +30,8 @@ adversarially fact-checking the drafts.
    context. At most `max_batches_per_run` batches are scored per day, newest first, which keeps each day's compute bounded.
 3. **Score** (`.claude/workflows/job-score.js`). One agent per batch scores fit from 0 to 100 with a written rubric and
    cites résumé evidence. A second, deliberately **skeptical agent** re-reads every posting that scored high enough to be
-   picked and tries to refute the score (hidden seniority, unmet must-haves, eligibility, location). Agent output is
+   picked and tries to refute the score (hidden seniority, unmet must-haves, eligibility, location). It reads only those
+   postings, which `daily.py skeptic-input` extracts with their first-pass scores. Agent output is
    validated by `daily.py check-scored` and `check-verdicts`. Invalid files are skipped and their postings retried.
 4. **Pick** (`daily.py pick`) ranks by the post-skeptic score, applies caps (per company, per day, salary floor), confirms
    the posting is still live, and **fetches the real application form** (Greenhouse, Ashby and Lever) so answers are
@@ -38,7 +39,10 @@ adversarially fact-checking the drafts.
    one-way video interview disqualifies the posting.
 5. **Tailor** (`.claude/workflows/job-tailor.js`): draft, adversarial fact-check, fix, then a **final re-check** by a fresh
    agent. The fix pass must apply every fabrication and overclaim finding and pass `daily.py check-app`. The re-check
-   reads the file that was actually written. One targeted repair is allowed, after which it must be clean.
+   reads the file that was actually written. One targeted repair is allowed, after which it must be clean. Drafting, the
+   first review and the fixes run on Sonnet. The final re-check keeps the session model. Everything mechanical (schema,
+   form coverage, select options, writing rules) is checked by `check-app`, so the agents spend no tokens on it. Jobs are
+   tailored two at a time, so a run that hits the usage limit keeps the applications it finished.
 6. **Build** (`build_all.py`) renders the résumé and cover letter to .docx and PDF through Microsoft Word, fits the résumé
    to one page, and writes a report per application.
 7. **Digest** (`daily.py finalize`) re-runs `check-app --final` on every drafted application, sets tracker statuses and
@@ -105,7 +109,7 @@ LLMs are good at making a résumé sound better than the person is. Two layers s
 
 | Path | What |
 |---|---|
-| `daily.py` | the deterministic pipeline: `sweep` (= `fetch` + `prepare`), `check-scored`, `check-verdicts`, `merge`, `pick`, `add`, `check-app`, `stamp-recheck`, `finalize`, `answer`, `learn`, `learn-question`, `questions`, `note`, `approve`, `can-submit`, `start-submit`, `mark`, `status`, `stats` (`daily.py --help` lists them) |
+| `daily.py` | the deterministic pipeline: `sweep` (= `fetch` + `prepare`), `check-scored`, `skeptic-input`, `check-verdicts`, `merge`, `pick`, `add`, `check-app`, `stamp-recheck`, `finalize`, `answer`, `learn`, `learn-question`, `questions`, `note`, `approve`, `can-submit`, `start-submit`, `mark`, `status`, `stats` (`daily.py --help` lists them) |
 | `fetch_jobs.py` | ATS board clients and screening |
 | `forms.py` | live application-form fetcher (Greenhouse, Ashby, Lever), question classification, standing-answer matching |
 | `make_batches.py` | mismatch filter, description trimming, batch files |

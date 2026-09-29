@@ -5,6 +5,7 @@ Claude Code workflows in .claude/workflows/ and call these subcommands between s
   fetch     [--date D]                 sweep every board in data/companies.json -> data/runs/D/
   prepare   [--date D] [--force]       drop seen / clearly ineligible postings, write scoring batches
   check-scored FILE                    validate a scorer's output (data/runs/D/scored/batch_NN.json)
+  skeptic-input FILE                   write scored/batch_NN.verify.md: the postings the skeptic reviews (FILE = scored json)
   check-verdicts FILE                  validate a skeptic's output (batch_NN.verdicts.json)
   merge     [--date D]                 fold valid scores + verdicts into data/scored.json and data/seen.json
   pick      [--date D] [--auto N] [--portal M]   choose today's applications: briefs, live forms, tracker rows
@@ -459,6 +460,33 @@ def cmd_check_scored(a):
     sys.exit(1 if errs else 0)
 
 
+def cmd_skeptic_input(a):
+    """Write scored/batch_NN.verify.md: only the postings the skeptic must review, each with its first-pass score, so the
+    skeptic reads a few postings instead of the whole batch plus the whole scored file."""
+    f = Path(a.file)
+    entries, errs = validate_scored(f)
+    if errs:
+        sys.exit(f"{f} is not valid: {errs[0]}")
+    md = f.parent.parent / "batches" / f"{f.stem}.md"
+    blocks, cur = {}, []
+    for line in md.read_text(encoding="utf-8").splitlines() + ["### POSTING end"]:
+        if line.startswith("### POSTING ") and cur:
+            url = next((x[5:].strip() for x in cur if x.startswith("url: ")), None)
+            if url:
+                blocks[url] = cur[1:]
+            cur = []
+        cur.append(line)
+    keep = [e for e in entries if needs_verdict(e)]
+    first = ("fit_score", "level", "role_type", "eligibility_notes", "must_haves_met", "strengths", "gaps")
+    L = []
+    for i, e in enumerate(keep, 1):
+        L += [f"### REVIEW {i}"] + blocks.get(e["url"], [f"url: {e['url']}", "(posting text not found in the batch)"])
+        L += ["first-pass score:", json.dumps({k: e.get(k) for k in first}, ensure_ascii=False), ""]
+    out = f.with_name(f"{f.stem}.verify.md")  # in scored/, so the batch_*.md globs over batches/ never see it
+    out.write_text("\n".join(L), encoding="utf-8")
+    emit({"file": str(out), "postings": len(keep), "urls": [e["url"] for e in keep]})
+
+
 def cmd_check_verdicts(a):
     entries, _ = validate_scored(str(a.file).replace(".verdicts.json", ".json"))
     verdicts, errs = validate_verdicts(a.file, entries)
@@ -560,8 +588,15 @@ def render_brief(rec, s, form, note, fl, bucket, key):
     L += [f"- {x['label']}: {x['answer']}" for x in fl.get("standing", [])] or ["- none apply"]
     L += ["", "## Questions that go to Russ (ONLY in field_answers, needs_user: true, answer \"\"; never in custom_answers)", ""]
     L += [f"- {'[required] ' if q['required'] else ''}{q['label']}" for q in fl["ask_russ"]] or ["- none"]
-    L += ["", "## Full posting text", "", rec.get("description", "")]
+    L += ["", "## Posting text (benefits and EEO boilerplate removed)", "", posting_text(rec.get("description", ""))]
     return "\n".join(L)
+
+
+def posting_text(desc, cap=8000):
+    """The posting without its boilerplate paragraphs, capped: every tailoring agent reads the brief, some twice."""
+    paras = [p for p in desc.split("\n") if not make_batches.DROP_PARA.search(p)]
+    text = "\n".join(paras).strip()
+    return text if len(text) <= cap else text[:cap] + f"\n[... cut at {cap:,} characters]"
 
 
 def prepare_job(rec, s, bucket, d, taken_keys, attempts, old=None, source="pick"):
@@ -865,6 +900,15 @@ def _check_app(key, app, final):
         style += style_guard.check_field(qa["question"], qa.get("answer", ""), q.get("type", "text"), name,
                                          q.get("options") or ())
     errs += [f"writing rules: {s}" for s in style]
+    # a select answer is one of the form's own options (checked here, so the fact-checkers need not read form.json)
+    for qa in fields:
+        q = by_label.get(norm(qa["question"]))
+        answer = qa.get("answer", "").strip()
+        if not q or q["type"] != "select" or not q.get("options") or not answer or qa.get("needs_user") \
+                or russ_answered(qa) or any(same_question(qa["question"], lab) for lab in standing_labels):
+            continue
+        if not any(norm(answer) == norm(o) for o in q["options"]):
+            errs.append(f"{qa['question'][:60]}: {answer[:40]!r} is not one of the form's options (see data/jobs/{key}.form.json)")
     # every required question has a planned answer
     answered = [qa["question"] for qa in customs + fields] + [s["label"] for s in fl.get("standing", [])]
     for q in questions:
@@ -1432,7 +1476,7 @@ def main():
     s = sub.add_parser("add")
     s.add_argument("url")
     s.add_argument("--date", default=today)
-    for name in ("check-scored", "check-verdicts"):
+    for name in ("check-scored", "skeptic-input", "check-verdicts"):
         sub.add_parser(name).add_argument("file")
     s = sub.add_parser("check-app")
     s.add_argument("key")
@@ -1476,7 +1520,7 @@ def main():
     sub.add_parser("stats")
     a = p.parse_args()
     {"sweep": cmd_sweep, "fetch": cmd_fetch, "prepare": cmd_prepare, "check-scored": cmd_check_scored,
-     "check-verdicts": cmd_check_verdicts, "merge": cmd_merge, "pick": cmd_pick, "add": cmd_add,
+     "skeptic-input": cmd_skeptic_input, "check-verdicts": cmd_check_verdicts, "merge": cmd_merge, "pick": cmd_pick, "add": cmd_add,
      "check-app": cmd_check_app, "stamp-recheck": cmd_stamp_recheck, "answer": cmd_answer, "finalize": cmd_finalize,
      "learn": cmd_learn, "learn-question": cmd_learn_question, "questions": cmd_questions, "note": cmd_note,
      "approve": cmd_approve, "can-submit": cmd_can_submit, "start-submit": cmd_start_submit, "mark": cmd_mark,

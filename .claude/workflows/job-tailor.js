@@ -6,7 +6,7 @@ export const meta = {
     { title: 'Draft', detail: 'one drafter per job: resume JSON, cover letter, answers for the real form' },
     { title: 'Check', detail: 'adversarial fact-check against the master resume + answer rules' },
     { title: 'Fix', detail: 'apply every finding, write private/applications/<key>.json, pass daily.py check-app' },
-    { title: 'Recheck', detail: 'fresh fact-check of the written file; one targeted repair, then it must be clean' },
+    { title: 'Recheck', detail: 'fresh fact-check of the written file (session model); one targeted repair, then it must be clean' },
   ],
 }
 
@@ -20,8 +20,14 @@ const WRITING = `${ROOT}\\private\\writing_rules.md`
 const KNOWLEDGE = `${ROOT}\\private\\knowledge.md`
 const QBANK = `${ROOT}\\private\\question_bank.json`
 const SEARCH = `${ROOT}\\private\\search_rules.md`
-// Usage: drafting and fixing run on Sonnet; the adversarial fact-checks keep the session model.
+// Usage: drafting, the first review and fixing run on Sonnet. The final re-check, which gates what Russ sees, keeps
+// the session model. check-app covers everything mechanical (schema, form coverage, select options, writing rules).
 const WRITER_MODEL = 'sonnet'
+const CHECK_MODEL = 'sonnet'
+// Jobs tailored at once. Small groups finish completely before the next starts, so a run that hits the usage limit
+// keeps its finished applications instead of leaving every job half done; a same-day re-run continues with the rest.
+const TAILOR_PARALLEL = 2
+const ONE_TURN = 'Read them all in ONE turn with parallel Read calls: every extra turn re-sends everything read so far.'
 
 const RESUME = {
   type: 'object',
@@ -166,9 +172,9 @@ const SECTION_GUIDE = `Section order depends on the variant:
 Education entries: heading=school, heading_right=location, subheading=degree, subheading_right=dates, no bullets.
 Project entries: heading=project name, heading_link=its GitHub URL from the master (empty string if none), heading_right=dates, subheading="" and subheading_right="".`
 
-const FORM_GUIDE = (key) => `The job brief lists the REAL application form (fetched live); full option lists are in ${ROOT}\\data\\jobs\\${key}.form.json. Answer exactly those questions:
+const FORM_GUIDE = (key) => `The job brief lists the REAL application form (fetched live) with its options. Open ${ROOT}\\data\\jobs\\${key}.form.json only when the brief says an option list was cut ("+N more"). Answer exactly those questions:
 - custom_answers: one entry for EVERY free-text (long_text) question on the form, "question" copied exactly from the form label. 80-150 words each unless the question implies shorter; in his voice; company-specific. Adapt ${BANK} rather than repeating it verbatim. If the form was not available, write 4-6 questions this employer is likely to ask.
-- field_answers: one entry for EVERY other question on the form except file uploads, the Education block and EEO/self-identification questions (gender, race, veteran, disability, orientation - those come from ${ANSWERS} at submit time): names, email, phone, links, location, sponsorship, authorization, start date, salary, how-did-you-hear, selects, yes/no. For selects give the exact option text from the form.json. Salary per ${ANSWERS}. How did you hear: the careers-page / job-board option (or "Other" + "Company careers page").
+- field_answers: one entry for EVERY other question on the form except file uploads, the Education block and EEO/self-identification questions (gender, race, veteran, disability, orientation - those come from ${ANSWERS} at submit time): names, email, phone, links, location, sponsorship, authorization, start date, salary, how-did-you-hear, selects, yes/no. For selects give the exact option text (check-app rejects anything else). Salary per ${ANSWERS}. How did you hear: the careers-page / job-board option (or "Other" + "Company careers page").
 - "Standing answers Russ gave" in the brief: use those answers exactly (needs_user false). For a select, the form's own spelling of that option.
 - Anything under "Questions that go to Russ" -> ONLY a field_answers entry with needs_user: true and answer "" (never a custom_answers entry, even for long text) - never answer those yourself, not even with a guess. Also list them in notes.
 - Any other question, including new kinds you have not seen: answer it from ${ANSWERS}, ${KNOWLEDGE} (verified facts: education dates, GPA, citizenship, years of experience, current situation) and ${MASTER}. ${QBANK} (if it exists) holds answers already given on earlier forms: keep facts consistent with them, but write text fresh for this company.
@@ -180,7 +186,7 @@ const STYLE_RULES = `Writing: the resume summary, the cover letter, every custom
 const TRUSTED = `Trusted as given, never flag: answers listed in the brief under "Standing answers Russ gave" (they are his own words; report a conflict with ${KNOWLEDGE} in notes only), and options copied exactly from the form. Must be verified: a "Yes" to a skills or experience question is a claim; flag it as fabrication unless ${MASTER} shows that skill or a close, defensible equivalent. Any answer that relies on a line in the "## Learned" section of ${KNOWLEDGE}: open the source file that line cites and flag the answer as fabrication if that file does not state the fact, or if the source is in a folder that ${SEARCH} forbids.`
 
 const draftPrompt = (job, date) => `You are writing a job application for Russ, the candidate in ${MASTER} (his legal and display names are in ${ANSWERS}). Today is ${date}.
-Read, in order:
+Read these files (${ONE_TURN}):
 1. ${MASTER} - the ONLY source of facts about him, and ${TRAPS} - the rewording rules and the name rules
 2. ${job.brief} - the job brief: posting text, screener notes, gaps, keywords, the resume variant to use, and the live application form
 3. ${ANSWERS} - standard answers (availability, work authorization, location, salary rules, EEO)
@@ -203,14 +209,15 @@ Produce:
 notes: anything the human should check before submitting.`
 
 const checkPrompt = (job, draft) => `You are an adversarial fact-checker and recruiter reviewing a drafted job application.
-Read: ${MASTER} (the only source of truth about the candidate), ${TRAPS} (the rewording rules), ${ANSWERS} (the rules for form answers), ${KNOWLEDGE} (verified facts for other form questions), ${WRITING} (his writing rules), ${job.brief} (the posting, screener notes and live form) and ${ROOT}\\data\\jobs\\${job.key}.form.json (full select options).
+Read ${MASTER} (the only source of truth about the candidate), ${TRAPS} (the rewording rules), ${ANSWERS} (the rules for form answers), ${KNOWLEDGE} (verified facts for other form questions), ${WRITING} (his writing rules) and ${job.brief} (the posting, screener notes and live form). ${ONE_TURN}
+daily.py check-app already enforces the schema, form coverage, select options, work-authorization fields and the mechanical writing rules: spend your effort on what a regex cannot see.
 
 Draft to attack:
-${JSON.stringify(draft, null, 1)}
+${JSON.stringify(draft)}
 
 In priority order:
 1. FABRICATION: any claim - resume, cover letter, custom answers - the master file does not support. Check every number, tool, date, title, team size, scope word ("production", "at scale", "customers", "led") and outcome, and that each bullet's source_ids contain what the bullet says. Flag every break of the rewording rules in ${TRAPS}.
-2. RULE_VIOLATION: field_answers that break ${ANSWERS} (work authorization, sponsorship, salary floor/midpoint, start date, location), a work-authorization claim in prose, a question from "Questions that go to Russ" answered instead of marked needs_user, a required form question with no answer, a select answer that is not one of the listed options, a fact used in an answer that is in none of ${MASTER}, ${ANSWERS} or ${KNOWLEDGE}, a skills question answered with a bare "No" or inability wording ("I don't have", "unfortunately", "not familiar"), and any break of ${WRITING} in the cover letter or answers (dashes, semicolons, banned words, "not only X but also Y", "It's not X, it's Y", "From X to Y", metaphors, cliches, a group of three that is not really three items, dramatic one-line closers, fragments for effect, inflated importance).
+2. RULE_VIOLATION: field_answers that break ${ANSWERS} (work authorization, sponsorship, salary floor/midpoint, start date, location), a work-authorization claim in prose, a question from "Questions that go to Russ" answered instead of marked needs_user, a fact used in an answer that is in none of ${MASTER}, ${ANSWERS} or ${KNOWLEDGE}, a skills question answered with a bare "No" or inability wording ("I don't have", "unfortunately", "not familiar"), and any break of ${WRITING} in the cover letter or answers (dashes, semicolons, banned words, "not only X but also Y", "It's not X, it's Y", "From X to Y", metaphors, cliches, a group of three that is not really three items, dramatic one-line closers, fragments for effect, inflated importance).
 3. OVERCLAIM: technically true but reads as more than it was.
 4. KEYWORD_GAP: posting requirements the master DOES support but the draft failed to surface. Also a posting requirement he lacks where the draft could name adjacent real experience and does not.
 5. LENGTH: resume body over ~580 words or cover letter outside 280-340 words; say exactly what to cut.
@@ -219,13 +226,13 @@ ${TRUSTED}
 Give a concrete fix for every finding. Be harsh - cutting a claim is cheaper than losing credibility in an interview. Do not invent findings for clean sections.`
 
 const fixPrompt = (job, draft, findings, date) => `You are finalising a job application. Today is ${date}.
-Read ${MASTER} (the only source of facts), ${TRAPS}, ${ANSWERS} (form-answer rules), ${KNOWLEDGE} (verified facts), ${WRITING} (his writing rules) and ${job.brief} (posting and live form).
+Read ${MASTER} (the only source of facts), ${TRAPS}, ${ANSWERS} (form-answer rules), ${KNOWLEDGE} (verified facts), ${WRITING} (his writing rules) and ${job.brief} (posting and live form). ${ONE_TURN}
 
 DRAFT:
-${JSON.stringify(draft, null, 1)}
+${JSON.stringify(draft)}
 
 FACT-CHECKER FINDINGS:
-${JSON.stringify(findings, null, 1)}
+${JSON.stringify(findings)}
 
 Apply every fabrication, rule_violation and overclaim finding - mandatory; when in doubt cut the claim rather than soften it. Apply keyword, length and style findings where they genuinely improve the application and stay truthful. Ignore any finding that would itself introduce an unsupported claim.
 ${RULES}
@@ -253,17 +260,17 @@ const appFile = key => `${ROOT}\\private\\applications\\${key}.json`
 const jobFile = (key, ext) => `${ROOT}\\data\\jobs\\${key}${ext}`
 
 const recheckPrompt = (job) => `You are the last line of defence before a job application is shown to Russ for approval.
-Read ${MASTER} (the only source of facts about him), ${TRAPS}, ${ANSWERS}, ${KNOWLEDGE} and ${job.brief}, then the FINAL application: ${appFile(job.key)} (and ${jobFile(job.key, '.form.json')} for the form).
+Read ${MASTER} (the only source of facts about him), ${TRAPS}, ${ANSWERS}, ${KNOWLEDGE}, ${job.brief} and the FINAL application ${appFile(job.key)}. ${ONE_TURN} (check-app has already verified select options, form coverage and the mechanical rules.)
 Report ONLY two kinds of problem - ignore style, length and keywords:
 - fabrication/overclaim: any claim in the resume, cover letter, custom_answers or field_answers that neither the master file nor ${KNOWLEDGE} supports, or that breaks one of the rewording rules in ${TRAPS} (check every number, tool, scope word and outcome);
-- rule_violation: a work-authorization or residency claim outside the structured authorization fields, an authorization/sponsorship answer that differs from ${ANSWERS}, a "Questions that go to Russ" item answered instead of needs_user, a select answer not among the form.json options, a skills question answered with a bare "No" or with inability wording.
+- rule_violation: a work-authorization or residency claim outside the structured authorization fields, an authorization/sponsorship answer that differs from ${ANSWERS}, a "Questions that go to Russ" item answered instead of needs_user, a skills question answered with a bare "No" or with inability wording.
 ${TRUSTED}
 Then write your verdict with the Write tool to ${jobFile(job.key, '.recheck.json')} as {"clean": true|false, "findings": [...]}, and bind it to the file you checked by running (Bash): ${RUN} stamp-recheck ${job.key}
 Return the same verdict (file_written true once written and stamped). Do not modify any other file.`
 
 const refixPrompt = (job, findings) => `A final re-check found problems in the job application ${appFile(job.key)}.
-Read ${MASTER}, ${TRAPS}, ${ANSWERS}, ${KNOWLEDGE}, ${WRITING} and ${job.brief}. Fix EXACTLY these findings in the file (cut the claim rather than soften it; change nothing else; new wording follows ${WRITING}):
-${JSON.stringify(findings, null, 1)}
+Read ${MASTER}, ${TRAPS}, ${ANSWERS}, ${KNOWLEDGE}, ${WRITING} and ${job.brief}. ${ONE_TURN} Fix EXACTLY these findings in the file (cut the claim rather than soften it; change nothing else; new wording follows ${WRITING}):
+${JSON.stringify(findings)}
 Edit the file in place, then validate: ${RUN} check-app ${job.key} - fix until it prints "ok": true (at most 3 attempts). Return the result summary with key "${job.key}".`
 
 const date = args.date
@@ -275,13 +282,13 @@ const jobs = ((args && args.jobs) || [])
 if (jobs.length !== ((args && args.jobs) || []).length) log('some job keys were malformed and skipped')
 const fail = (job, why) => ({ key: job.key, written: false, check_ok: false, remaining_errors: [why], changes: '', needs_russ: [] })
 
-const results = await pipeline(
-  jobs,
+const tailorGroup = group => pipeline(
+  group,
   job => agent(draftPrompt(job, date), { label: `draft:${job.key}`, phase: 'Draft', schema: DRAFT_OUT, model: WRITER_MODEL }),
   async (draft, job) => {
     if (!draft) return null
-    let f = await agent(checkPrompt(job, draft), { label: `check:${job.key}`, phase: 'Check', schema: FINDINGS })
-    if (!f) f = await agent(checkPrompt(job, draft), { label: `check-retry:${job.key}`, phase: 'Check', schema: FINDINGS })
+    let f = await agent(checkPrompt(job, draft), { label: `check:${job.key}`, phase: 'Check', schema: FINDINGS, model: CHECK_MODEL })
+    if (!f) f = await agent(checkPrompt(job, draft), { label: `check-retry:${job.key}`, phase: 'Check', schema: FINDINGS, model: CHECK_MODEL })
     return f ? { draft, findings: f } : { failed: 'fact-check failed twice; not written' }
   },
   async (prev, job) => {
@@ -302,6 +309,11 @@ const results = await pipeline(
     return { ...r, key: job.key }
   },
 )
+
+const results = []
+for (let i = 0; i < jobs.length; i += TAILOR_PARALLEL) {
+  results.push(...await tailorGroup(jobs.slice(i, i + TAILOR_PARALLEL)))
+}
 
 const ok = results.filter(r => r && r.check_ok)
 log(`${ok.length}/${jobs.length} applications drafted, fact-checked, fixed, re-checked and validated`)
