@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+
+# A candidate's own files do not belong in this folder. These lines keep them out of a commit by accident.
+/master.json
+/tailored.json
+/posting.md
+/out/

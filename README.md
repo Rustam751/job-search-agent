@@ -128,6 +128,7 @@ LLMs are good at making a résumé sound better than the person is. Two layers s
 | `data/companies.json` | the monitored job boards (302 fetched. A few careers sites without a supported API are kept with `ats: other`) |
 | `docs/SUBMITTING.md` | the browser playbook for the submit step |
 | `tests/` | `test_forms.py`, `test_style.py`, `test_batches.py`, `test_workflows_ascii.py` (plain scripts, each prints `failures: 0`) and `integration_sandbox.py`, which runs the deterministic pipeline end to end on a throwaway copy with the LLM stages stubbed |
+| `skills/resume-tailor-guard/` | a standalone Agent Skill cut from the tailoring loop: tailor a résumé and cover letter to one posting under the no-fabrication guard. It has its own README, example and tests, and does not need the rest of the pipeline |
 
 ## What stays private, and why
 

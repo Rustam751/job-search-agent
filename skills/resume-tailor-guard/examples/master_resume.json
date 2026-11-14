@@ -1,0 +1,93 @@
+{
+  "_note": "Fictional example. The person, the employers and the school do not exist.",
+  "confirmed_on": "2024-09-02",
+  "contact": {
+    "name": "Jordan Avery",
+    "location": "Denver, CO",
+    "phone": "(303) 555-0142",
+    "email": "jordan.avery@example.com",
+    "website": "https://jordan-avery.example",
+    "code": "https://git.example/jordan-avery"
+  },
+  "facts": [
+    "5 years of professional experience in software and data engineering (Jul 2019 to Aug 2024)."
+  ],
+  "rewording_notes": [
+    "The Kafka work at Quillmere (ql4) was a pilot on one carrier's feed and was not moved to production. Always say so.",
+    "The dbt migration (ql2) covered the 38 finance models only. Do not write 'the warehouse' or 'all models'.",
+    "Mentoring (ql7) was informal. Do not write 'managed' or 'led a team'."
+  ],
+  "skills": {
+    "Languages": ["Python", "SQL", "Java", "Bash"],
+    "Data": ["Apache Airflow", "dbt", "Snowflake", "PostgreSQL", "Apache Kafka", "Great Expectations", "pandas"],
+    "Cloud and tooling": ["AWS", "Amazon S3", "Docker", "GitHub Actions", "Git", "pytest"],
+    "Practices": ["Data modeling", "Data quality testing", "Code review", "On-call support"]
+  },
+  "experience": [
+    {
+      "heading": "Quillmere Logistics",
+      "subheading": "Data Engineer",
+      "location": "Denver, CO",
+      "dates": "Jun 2021 – Aug 2024",
+      "link": "",
+      "bullets": [
+        {"id": "ql1", "text": "Built and maintained 14 Apache Airflow DAGs that load shipment, carrier and billing data from 6 source systems into Snowflake every night."},
+        {"id": "ql2", "text": "Migrated 38 finance models from hand-written SQL scripts to dbt, with tests on every model. Monthly close data preparation went from 3 days to 1 day."},
+        {"id": "ql3", "text": "Added Great Expectations checks to the 5 highest-traffic tables. In their first year the checks caught 23 bad loads before analysts saw them."},
+        {"id": "ql4", "text": "Ran a three-month pilot that ingested one carrier's tracking events through Apache Kafka into PostgreSQL, about 1.2 million events per day with a median delay under 40 seconds. The pilot was not moved to production."},
+        {"id": "ql5", "text": "Cut the nightly load window from 4 hours to 2.5 hours by partitioning the two largest tables and running independent DAGs in parallel."},
+        {"id": "ql6", "text": "Wrote the on-call runbook for the data platform and took part in a 4-person on-call rotation."},
+        {"id": "ql7", "text": "Mentored two junior engineers through code review and weekly pairing sessions."}
+      ]
+    },
+    {
+      "heading": "Pine Hollow Credit Union",
+      "subheading": "Software Developer",
+      "location": "Boise, ID",
+      "dates": "Jul 2019 – May 2021",
+      "link": "",
+      "bullets": [
+        {"id": "ph1", "text": "Developed Python and Java services for the member statements system, which serves about 52,000 members."},
+        {"id": "ph2", "text": "Rewrote the nightly statement export as a set of SQL jobs on PostgreSQL, cutting its run time from 95 minutes to 20 minutes."},
+        {"id": "ph3", "text": "Built a reconciliation report that compares ledger totals with the core banking export and flags mismatches over $50."},
+        {"id": "ph4", "text": "Set up GitHub Actions to run unit tests and linting on the team's 9 repositories."}
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "heading": "gtfs-delay-map",
+      "subheading": "",
+      "location": "",
+      "dates": "2023",
+      "link": "https://git.example/jordan-avery/gtfs-delay-map",
+      "bullets": [
+        {"id": "gd1", "text": "Built a Python tool that reads public GTFS-Realtime transit feeds and maps average bus delays by route and hour. It processes about 300,000 records per day on one small cloud instance."},
+        {"id": "gd2", "text": "Packaged it with Docker and a GitHub Actions workflow. 11 outside contributors have opened pull requests."}
+      ]
+    },
+    {
+      "heading": "ledger-lint",
+      "subheading": "",
+      "location": "",
+      "dates": "2022",
+      "link": "https://git.example/jordan-avery/ledger-lint",
+      "bullets": [
+        {"id": "ll1", "text": "Wrote a command-line checker in Python that validates CSV bank exports against a schema and reports row-level errors."},
+        {"id": "ll2", "text": "Covered the parser with 140 unit tests in pytest."}
+      ]
+    }
+  ],
+  "education": [
+    {
+      "heading": "Westmarch Institute of Technology",
+      "subheading": "B.S. in Computer Science",
+      "location": "Fort Collins, CO",
+      "dates": "Sep 2015 – May 2019",
+      "link": "",
+      "bullets": [
+        {"id": "ed1", "text": "Senior capstone: a route-planning service for the campus shuttle, built by a team of four."}
+      ]
+    }
+  ]
+}

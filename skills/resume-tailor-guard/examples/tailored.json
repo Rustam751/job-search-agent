@@ -1,0 +1,122 @@
+{
+  "company": "Sablewick Freight",
+  "role": "Data Engineer, Shipment Visibility",
+  "posting_url": "",
+  "resume": {
+    "summary": "Data engineer with **5 years** of professional experience in software and data engineering, most recently on shipment, carrier and billing pipelines at a logistics company. Built and maintained **14 Apache Airflow DAGs** that load data from 6 source systems into Snowflake every night. Migrated 38 finance models to dbt and added Great Expectations checks to the 5 highest-traffic tables.",
+    "skills": [
+      {"label": "Languages", "items": ["Python", "SQL", "Bash"]},
+      {"label": "Data", "items": ["Apache Airflow", "dbt", "Snowflake", "PostgreSQL", "Great Expectations"]},
+      {"label": "Cloud and tooling", "items": ["AWS", "Amazon S3", "Docker", "GitHub Actions", "Git", "pytest"]},
+      {"label": "Practices", "items": ["Data quality testing", "On-call support"]}
+    ],
+    "sections": [
+      {
+        "title": "Experience",
+        "entries": [
+          {
+            "heading": "Quillmere Logistics",
+            "subheading": "Data Engineer",
+            "location": "Denver, CO",
+            "dates": "Jun 2021 – Aug 2024",
+            "link": "",
+            "bullets": [
+              {"text": "Built and maintained **14 Apache Airflow DAGs** that load shipment, carrier and billing data from 6 source systems into Snowflake every night.", "source_ids": ["ql1"]},
+              {"text": "Added Great Expectations checks to the 5 highest-traffic tables, which caught **23 bad loads** in their first year before analysts saw them.", "source_ids": ["ql3"]},
+              {"text": "Cut the nightly load window from 4 hours to **2.5 hours** by partitioning the 2 largest tables and running independent DAGs in parallel.", "source_ids": ["ql5"]},
+              {"text": "Migrated 38 finance models from hand-written SQL scripts to **dbt**, with tests on every model. Monthly close data preparation went from 3 days to 1 day.", "source_ids": ["ql2"]}
+            ]
+          },
+          {
+            "heading": "Pine Hollow Credit Union",
+            "subheading": "Software Developer",
+            "location": "Boise, ID",
+            "dates": "Jul 2019 – May 2021",
+            "link": "",
+            "bullets": [
+              {"text": "Rewrote the nightly statement export as a set of SQL jobs on PostgreSQL, cutting its run time from 95 minutes to **20 minutes**.", "source_ids": ["ph2"]},
+              {"text": "Built a reconciliation report that compares ledger totals with the core banking export and flags mismatches over $50.", "source_ids": ["ph3"]}
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Projects",
+        "entries": [
+          {
+            "heading": "gtfs-delay-map",
+            "subheading": "",
+            "location": "",
+            "dates": "2023",
+            "link": "https://git.example/jordan-avery/gtfs-delay-map",
+            "bullets": [
+              {"text": "Built a Python tool that reads public GTFS-Realtime transit feeds and maps average bus delays by route and hour, processing about **300,000 records per day**. Packaged it with Docker and a GitHub Actions workflow.", "source_ids": ["gd1", "gd2"]}
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Education",
+        "entries": [
+          {
+            "heading": "Westmarch Institute of Technology",
+            "subheading": "B.S. in Computer Science",
+            "location": "Fort Collins, CO",
+            "dates": "Sep 2015 – May 2019",
+            "link": "",
+            "bullets": []
+          }
+        ]
+      }
+    ]
+  },
+  "cover_letter": {
+    "date": "September 9, 2024",
+    "greeting": "Dear Sablewick Freight Hiring Team,",
+    "paragraphs": [
+      "Your posting describes carrier data that arrives late and in inconsistent formats, and customers who notice when it does. Nightly loads of that kind of data were my work at Quillmere Logistics, where I built and maintained 14 Apache Airflow DAGs that feed Snowflake from 6 source systems. I would like to do that work on your shipment visibility platform as a Data Engineer.",
+      "You ask for data quality checks that catch bad loads before customers see them. The Great Expectations checks I added to the 5 highest-traffic tables at Quillmere caught 23 bad loads in their first year, before analysts saw them. You also want shorter load times. Partitioning the two largest tables and running independent DAGs in parallel took our nightly load window from 4 hours to 2.5 hours. On the modeling side, I moved 38 finance models from hand-written SQL scripts to dbt, with tests on every model.",
+      "The posting lists streaming experience as a plus. The closest thing I have done is a three-month pilot that ingested one carrier's tracking events through Apache Kafka into PostgreSQL, about 1.2 million events per day with a median delay under 40 seconds. The pilot was not moved to production. On-call duty is familiar work. I wrote the on-call runbook for Quillmere's data platform and took part in a 4-person on-call rotation.",
+      "Before Quillmere I was a Software Developer at Pine Hollow Credit Union. There I rewrote the nightly statement export as a set of SQL jobs on PostgreSQL, which cut its run time from 95 minutes to 20 minutes. I also built a reconciliation report that compares ledger totals with the core banking export. I am based in Denver, where this role is located, and I would welcome a conversation about your carrier feeds and the pipelines behind them. Thank you for your time."
+    ],
+    "closing": "Sincerely,"
+  },
+  "notes": "Left out because the master résumé does not support them: Apache Spark, Kubernetes, Terraform and Amazon Kinesis. If you have used any of them, add it to your master résumé first and tailor again. The Kafka pilot is described in the cover letter only, as a pilot that was not moved to production, which is what your rewording note requires. Apache Kafka is not in the skills line, because a skills line cannot carry that qualifier. On-call work is in the skills line and in the letter, not in a bullet, which keeps the Quillmere entry at 4 bullets. The posting asks for 3 or more years of data engineering experience. Your master shows the Data Engineer title from Jun 2021 to Aug 2024, so the summary says 5 years of software and data engineering, not 5 years of data engineering.",
+  "fact_check": {
+    "findings": [
+      {
+        "severity": "fabrication",
+        "where": "summary",
+        "problem": "The draft summary ended with \"and streaming systems at scale\". The master has one Kafka pilot and nothing that supports \"at scale\".",
+        "fix": "Cut the phrase."
+      },
+      {
+        "severity": "overclaim",
+        "where": "Quillmere Logistics bullet 5",
+        "problem": "The draft had a fifth bullet, \"Built a Kafka streaming pipeline handling 1.2M events per day\". Master bullet ql4 says this was a three-month pilot on one carrier's feed that was not moved to production, and a rewording note says to always say so.",
+        "fix": "Cut the bullet, which also brings the entry back to 4 bullets. Describe the pilot in the cover letter with both qualifiers. Take Apache Kafka out of the skills line, where it cannot carry them."
+      },
+      {
+        "severity": "overclaim",
+        "where": "Quillmere Logistics bullet 4",
+        "problem": "The draft said \"Migrated 38 finance models to dbt with tests on every model, taking monthly close data preparation from 3 days to 1 day\". Master bullet ql2 states the two facts side by side. It does not say that one caused the other.",
+        "fix": "Keep two sentences, as the master has them."
+      },
+      {
+        "severity": "keyword_gap",
+        "where": "cover letter",
+        "problem": "The posting asks for on-call work. Master bullet ql6 supports it and the draft did not mention it.",
+        "fix": "Add one sentence from ql6 to the cover letter and list On-call support in the skills."
+      },
+      {
+        "severity": "style",
+        "where": "cover letter paragraph 2",
+        "problem": "The draft repeated three résumé bullets word for word.",
+        "fix": "Reword the sentences and leave out the monthly close figures, which the résumé already has."
+      }
+    ],
+    "keyword_coverage": "Covers Python, SQL, Airflow, Snowflake, dbt, data quality checks, load times, on-call work (skills line and letter), a Kafka pilot (letter only) and the logistics background. Spark, Kubernetes, Terraform and Kinesis are absent because the master does not support them.",
+    "length_verdict": "The résumé body is well under one page. The cover letter is inside the 280 to 340 word target."
+  },
+  "recheck": {"clean": true, "findings": []}
+}
