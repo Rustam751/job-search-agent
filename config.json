@@ -1,0 +1,18 @@
+{
+ "auto_per_day": 4,
+ "portal_per_day": 1,
+ "min_score": 60,
+ "portal_min_score": 65,
+ "max_per_company": 2,
+ "max_posting_age_days": 730,
+ "batch_size": 20,
+ "max_batches_per_run": 3,
+ "salary_floor": 0,
+ "drop_red_flags": [],
+ "auto_ats": [
+  "greenhouse",
+  "lever",
+  "ashby"
+ ],
+ "max_tailor_per_run": 3
+}
